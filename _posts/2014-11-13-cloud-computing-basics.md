@@ -4,6 +4,7 @@ title: Cloud Computing Basics
 tags:
   - cloud
   - docker
+  - cloud-basics
 ---
 
 The first critic I've got for a blog was "Yeah, it's all nice and shinny, but

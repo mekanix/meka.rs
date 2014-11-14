@@ -5,6 +5,7 @@ tags:
   - cloud
   - docker
   - service-discovery
+  - cloud-basics
 ---
 
 So I've scratched the surface of a cloud in a
