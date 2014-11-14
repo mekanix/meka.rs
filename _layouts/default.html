@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta
+        name='viewport'
+        content='width=device-width,
+        initial-scale=1.0, maximum-scale=1.0'
+    >
+    <title>
+      {% if page.title %}{{ page.title }} –
+      {% endif %}{{ site.name }} –
+      {{ site.description }}
+    </title>
+    <meta name="author" content="{{ site.name }}">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+    <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="{{ site.name }} - {{ site.description }}"
+        href="{{ site.baseurl }}/feed.xml"
+    >
+  </head>
+  <body class="pt pb+">
+    <div class="top-banner">
+      <div class="container layout layout--flush">
+        <div class="layout__item 8/10">
+          {{ site.description }}
+        </div>
+        <nav class="layout__item 2/10 text--right">
+          <a href="{{ site.baseurl }}/">Blog</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
+      </div>
+    </div>
+    <header class="container layout layout--flush">
+      <div class="layout__item 1/10 pt">
+        <a title="Meka" href="{{ site.baseurl }}/" class="avatar">
+          <img class="avatar__img" src="{{ site.avatar }}">
+        </a>
+      </div>
+      <div class="layout__item 6/10 site-info ph">
+      </div>
+    </header>
+
+    <div id="main" role="main" class="container text--justify">
+      {{ content }}
+    </div>
+
+    <div class="footer">
+      <div class="container text--center">
+        {% include svg-icons.html %}
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>

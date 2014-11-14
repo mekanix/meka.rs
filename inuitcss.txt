@@ -1,0 +1,7 @@
+npm install bower # maybe with -g?
+bower init # answer the questions
+find inuitcss starter kit, and follow the instructions
+style.scss has _scss as root, hence import ../bower_components
+copy/paste configuration to style.scss
+inuitcss has small repos, read on every readme how to get it with bower
+example: trupms.spacing/_trumps.spacing.scss variables, copy them to style.scss

@@ -1,0 +1,119 @@
+---
+---
+
+// SETTINGS
+@import "../bower_components/inuit-defaults/settings.defaults";
+@import "../bower_components/inuit-functions/tools.functions";
+$inuit-enable-layout--flush: true;
+$inuit-enable-paddings: true;
+$inuit-enable-paddings--large: true;
+
+$background--primary: #eaeaea;
+
+@import "../bower_components/inuit-mixins/tools.mixins";
+
+// BASE
+@import "../bower_components/inuit-normalize/generic.normalize";
+@import "../bower_components/inuit-box-sizing/generic.box-sizing";
+@import "../bower_components/inuit-page/base.page";
+
+// OBJECTS
+@import "../bower_components/inuit-layout/objects.layout";
+@import "../bower_components/inuit-box/objects.box";
+
+body,
+html {
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+code {
+  background: $background--primary;
+}
+
+.layout {
+  font-size: 0;
+}
+
+.layout__item {
+  font-size: $inuit-base-font-size;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.avatar {
+  position: relative;
+  z-index: 100;
+}
+
+.avatar__img {
+  display: block;
+  width: 100%;
+  border-radius: 500em;
+}
+
+.site-name {
+  display: inline-block;
+}
+
+.post__title-wrapper {
+  margin-top: -100px;
+  text-align: right;
+}
+
+.post {
+  &:first-of-type {
+    margin-top: -70px;
+  }
+
+  .post__title--index {
+    text-align: right;
+  }
+}
+
+.top-banner {
+  height: $inuit-base-spacing-unit;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: $background--primary;
+  z-index: 1000;
+}
+
+.footer {
+  background: $background--primary;
+  height: 2 * $inuit-base-spacing-unit;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.date {
+    color: #aaa;
+}
+
+// TRUMPS
+@import "../bower_components/inuit-spacing/trumps.spacing";
+@import "../bower_components/inuit-widths/trumps.widths";
+@import "../bower_components/inuit-clearfix/trumps.clearfix";
+
+.text--right {
+   text-align: right !important;
+}
+
+.text--center {
+  text-align: center !important;
+  letter-spacing: $inuit-base-spacing-unit;
+}
+
+.text--justify {
+  text-align: justify;
+}
