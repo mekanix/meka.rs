@@ -48,7 +48,8 @@ run this:
 
 Docker will do the magic of downloading and updating the image, if you had an
 old one, for you. As a matter of fact, why don't you try it? Clone the
-repository of this blog, install [Vagrant](https://www.vagrantup.com/) and
+[repository of this blog](https://github.com/mekanix/meka.rs), install
+[Vagrant](https://www.vagrantup.com/) and
 [VirtualBox](https://www.virtualbox.org/), and run:
 
 `vagrant up`<br/>
