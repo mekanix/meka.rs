@@ -9,22 +9,23 @@ tags:
 ---
 
 So I've scratched the surface of a service discovery in a
-[previous post](/cloud-computing-basics-2). Let's dream on. Up to now, I've
-only written about running a single container on a single host. But I'm poor, I
-want multiple things on the same hardware. Let's go back a little. Docker
-containers are like tiny virtual machines. They have IP address, disk space,
-running processes, ... Strictly speaking, docker isn't a virtual machine, but
-it almost is. There's one quirk about containers: they can open PostgreSQL port
-on a random port. Here's the reasoning. If you want to host multiple PostgreSQL
-instances, they can't all be on the same port. "Not a problem", one would say,
-"I'll configure different PostgreSQL instances on different ports". There's
-only one problem: you're running all PostgreSQL containers from the same image.
-Yes, you can put configuration at runtime, but remember, we have 10,000 hosts.
-You just can't do it efficiently. OK, this is how Docker does it. PostgreSQL is,
-by default, listening on port 5432. If you just do `docker run postgres`, you
-won't even open a port. That's Docker's weirdness about ports. Docker images are
-built with predefined ports to be opened in a container. But that same port
-doesn't get mapped unless you explicitly say so with -p or -P. Here's an example
+[previous post](/blog/2014/11/14/cloud-computing-basics-2). Let's dream on. Up
+to now, I've only written about running a single container on a single host.
+But I'm poor, I want multiple things on the same hardware. Let's go back a
+little. Docker containers are like tiny virtual machines. They have IP address,
+disk space, running processes, ... Strictly speaking, docker isn't a virtual
+machine, but it almost is. There's one quirk about containers: they can open
+PostgreSQL port on a random port. Here's the reasoning. If you want to host
+multiple PostgreSQL instances, they can't all be on the same port. "Not a
+problem", one would say, "I'll configure different PostgreSQL instances on
+different ports". There's only one problem: you're running all PostgreSQL
+containers from the same image. Yes, you can put configuration at runtime, but
+remember, we have 10,000 hosts. You just can't do it efficiently. OK, this is
+how Docker does it. PostgreSQL is, by default, listening on port 5432. If you
+just do `docker run postgres`, you won't even open a port. That's Docker's
+weirdness about ports. Docker images are built with predefined ports to be
+opened in a container. But that same port doesn't get mapped unless you
+explicitly say so with -p or -P. Here's an example
 
 `docker run -p 5432:5432 --rm postgres`
 
@@ -66,12 +67,13 @@ events and every time new container runs, it registers container's exposed ports
 to Consul. After that, let Consul-template do the rest.
 
 I'm starting to go in "WTF" direction, again. I have a proof this is not an
-empty story. If you clone https://github.com/one-love/vagrant-one-love and
-follow the instructions on that page, you'll get my project (in early alpha at
-the time of writing this post) which utilizes all I was talking about. It takes
-a fair amount of time for it to download everything, but once it does, you have
-my application in virtual machine, but that's not the reason I told you to do
-this. The reason is that you have Consul's WEB interface available at
+empty story. If you clone
+[One Love](https://github.com/one-love/vagrant-one-love) and follow the
+instructions on that page, you'll get my project (in early alpha at the time of
+writing this post) which utilizes all I was talking about. It takes a fair
+amount of time for it to download everything, but once it does, you have my
+application in virtual machine, but that's not the reason I told you to do this.
+The reason is that you have Consul's WEB interface available at
 [Vagrant VM](http://192.168.33.33:8500). Now go and play with it :o)
 
 [previous](/blog/2014/11/14/cloud-computing-basics-2)

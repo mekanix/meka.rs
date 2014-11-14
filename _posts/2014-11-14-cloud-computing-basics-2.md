@@ -9,10 +9,10 @@ tags:
 ---
 
 So I've scratched the surface of a cloud in a
-[previous post](/cloud-computing-basics). Let's dream on. Let's say you're
-hosting a [Django](https://www.djangoproject.com/) site. For start, let's
-assume that everything is inside one big container: Django, PostgreSQL, NginX,
-...
+[previous post](/blog/2014/11/13/cloud-computing-basics). Let's dream on. Let's
+say you're hosting a [Django](https://www.djangoproject.com/) site. For start,
+let's assume that everything is inside one big container: Django, PostgreSQL,
+NginX, ...
 
 After few months, your site grows and one machine is not enough. How do you
 add another, when your docker image has all included, and you should share the
