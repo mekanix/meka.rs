@@ -76,4 +76,4 @@ blog. If you want to update the image, stop the container (CTRL+C) and
 
 Happy docking :o)
 
-[next](/cloud-computing-basics-2)
+[next](/blog/2014/11/14/cloud-computing-basics-2)

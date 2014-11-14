@@ -63,5 +63,5 @@ enough). You can go wild with Consul variables and cloud setup. It's up to you
 and your team to find what should be shared through Consul, and what should be
 part of on-disk configuration.
 
-[previous](/cloud-computing-basics)
-[next](/cloud-computing-basics-3)
+[previous](/blog/2014/11/13/cloud-computing-basics)
+[next](/blog/2014/11/15/cloud-computing-basics-3)

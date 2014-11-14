@@ -73,4 +73,4 @@ my application in virtual machine, but that's not the reason I told you to do
 this. The reason is that you have Consul's WEB interface available at
 [Vagrant VM](http://192.168.33.33:8500). Now go and play with it :o)
 
-[previous](/cloud-computing-basics-2)
+[previous](/blog/2014/11/14/cloud-computing-basics-2)

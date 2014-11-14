@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Goran Mekić
 ---
 
 - Guitar player and singer of Lust for Trust
@@ -15,3 +14,4 @@ permalink: /about/
   - Django
   - InuitCSS
   - AngularJS
+
