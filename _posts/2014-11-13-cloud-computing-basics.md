@@ -52,11 +52,13 @@ old one, for you. As a matter of fact, why don't you try it? Clone the
 [Vagrant](https://www.vagrantup.com/) and
 [VirtualBox](https://www.virtualbox.org/), and run:
 
+`git checkout no-ansible`
 `vagrant up`<br/>
 `vagrant ssh`
 
-It will place you in virtual machine with CentOS (the only stable distribution
-with systemd and recent docker). To setup a docker:
+First line is there just to make sure you don't need Ansible, yet. I'll cover
+Ansible, provisioning and deployment in some of the later posts. To setup a
+docker:
 
 `sudo yum install docker`<br/>
 `sudo gpasswd -a vagrant docker`<br/>
