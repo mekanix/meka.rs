@@ -1,4 +1,18 @@
 ---
+- name: reset iptables
+  sudo: yes
+  command: iptables --flush
+  args:
+    creates: /etc/iptables.ansible
+
+- name: ensure iptables are ran only once
+  sudo: yes
+  file:
+    path: /etc/iptables.ansible
+    owner: root
+    group: root
+    state: touch
+
 - name: install docker
   sudo: yes
   yum:

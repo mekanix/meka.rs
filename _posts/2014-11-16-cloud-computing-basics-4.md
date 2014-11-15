@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Cloud Computing Basics 4
-published: false
 tags:
   - cloud
   - docker
