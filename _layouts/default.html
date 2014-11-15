@@ -6,7 +6,9 @@
     <meta
         name='viewport'
         content='width=device-width,
-        initial-scale=1.0, maximum-scale=1.0'
+                 initial-scale=1.0,
+                 maximum-scale=1.0,
+                 user-scalable=yes'
     >
     <title>
       {% if page.title %}{{ page.title }} –
@@ -26,10 +28,10 @@
   <body class="pt pb+">
     <div class="top-banner">
       <div class="container layout layout--flush">
-        <div class="layout__item 8/10">
+        <div class="layout__item 1/2">
           {{ site.description }}
         </div>
-        <nav class="layout__item 2/10 text--right">
+        <nav class="layout__item 1/2 text--right">
           <a href="{{ site.baseurl }}/">Home</a>
           <a href="{{ site.baseurl }}/blog">Blog</a>
           <a href="{{ site.baseurl }}/resume">Resume</a>
