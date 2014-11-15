@@ -71,3 +71,6 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - provision
+    - bower_components
+    - bower.json

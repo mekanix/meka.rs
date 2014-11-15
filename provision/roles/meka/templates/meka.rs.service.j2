@@ -1,0 +1,14 @@
+[Unit]
+Description=meka.rs
+After=registrator.service
+Requires=registrator.service
+Wants=registrator.service
+
+[Service]
+TimeoutStartSec=0
+ExecStartPre=/usr/bin/docker pull mekanix/meka.rs
+ExecStart=/usr/bin/docker run -p 80:80 --rm --name meka.rs mekanix/meka.rs
+ExecStop=/usr/bin/docker stop meka.rs
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,3 @@
+---
+meka_services:
+  - name: meka.rs
