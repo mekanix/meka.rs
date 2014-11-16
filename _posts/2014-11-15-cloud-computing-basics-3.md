@@ -77,3 +77,4 @@ The reason is that you have Consul's WEB interface available at
 [Vagrant VM](http://192.168.33.33:8500). Now go and play with it :o)
 
 [previous](/blog/2014/11/14/cloud-computing-basics-2)
+[next](/blog/2014/11/16/cloud-computing-basics-4)

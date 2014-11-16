@@ -90,3 +90,6 @@ For the last, one trick I use lately. My DB host is always `master.postgresql.se
 that when DNS records change, as DNS is not cached, application server will hit
 new DB server the second it's in DNS. For some other neat tricks, check out
 [Consul documentation](http://www.consul.io/docs/index.html).
+
+[previous](/blog/2014/11/15/cloud-computing-basics-3)
+[next](/blog/2014/11/17/cloud-computing-basics-5)
