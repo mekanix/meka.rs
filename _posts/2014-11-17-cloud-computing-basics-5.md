@@ -61,3 +61,4 @@ describe it but "read all from the
 It's simple and powerful.
 
 [previous](/blog/2014/11/16/cloud-computing-basics-4)
+[next](/blog/2014/11/20/cloud-computing-basics-6)
