@@ -18,6 +18,27 @@ MAINTAINER Goran Mekić <meka@lugons.org>
 RUN touch /some-file.txt
 {% endhighlight %}
 
+To build it run `docker build -t username/repo .` in a directory containing
+Dockerfile. It's advisable to have a [HUB](https://registry.hub.docker.com/)
+username, as registration is free and has autobuild capabilities. We'll deal
+with simple builds for now, and leave autobuild for some future post.
+
+To upload your image issue this command:
+
+`docker push username/repo`
+
+Docker will ask you for username/password/email combination. Fill it up, wait
+for upload to finish and that's it. You have your first Docker image. Let's give
+it a spin.
+
+`docker run --rm -i -t username/repo /bin/bash`
+
+What it does is (simplified):
+
+- `--rm`: remove container when it stops
+- `-i`: this will be interactive container (read: someone will type commands in it)
+- `-t`: give me a terminal emulation
+
 Note that every command in Dockerfile will create additional layer. It means
 that Docker images are organized as multiple file system layers which have
 dependencies. Much like a git repo branch is pointer to commit which has its
