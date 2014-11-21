@@ -68,3 +68,4 @@ Idealy, you can base your application on busybox environment, and use images as
 small as 5MB. If not, lurk around for your perfect solution.
 
 [previous](/blog/2014/11/17/cloud-computing-basics-5)
+[next](/blog/2014/11/21/cloud-computing-basics-7)
