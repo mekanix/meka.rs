@@ -2,7 +2,8 @@
 layout: post
 title: Real Time Feedback
 tags:
-  - service-discovery
+  - life-optimization
+  - lazzy-and-smart
 ---
 
 As I'm learning about WEB development, I'm learning how not to do it. Anyone can
