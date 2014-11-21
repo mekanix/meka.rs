@@ -9,7 +9,8 @@ tags:
 ---
 
 There's been so much talk about Consul-template and I've never shown you any
-examples. Let's take a look at my Dockerfile for NginX:
+examples. Consul-template is what gives Docker container the knowledge when
+something is changed in Consul. Let's take a look at my Dockerfile for NginX:
 
 {% highlight bash %}
 FROM nginx:latest
