@@ -8,7 +8,8 @@ tags:
   - build
 ---
 
-How about we create the first docker? Docker image is built from `Dockerfile`.
+Docker here, Docker there, and no Docker build anywhere. That's not fair. How
+about we create the first docker? Docker image is built from `Dockerfile`.
 The syntax of `Dockerfile` is almost the same as `Bash`. This is an example of
 Dockerfile:
 
