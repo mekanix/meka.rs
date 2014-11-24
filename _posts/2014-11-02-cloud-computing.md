@@ -11,7 +11,7 @@ tags:
 As [nobody understands the cloud](http://www.youtube.com/watch?v=ecZL4Q2EVuY),
 it became obvious to me I will hack something out of it. And I did. A job. My
 latest toy is [CoreOS](https://coreos.com/). It features two nice things a man
-doesn't need until he faces big amount of servers. First being collective
+doesn't need until he faces big amount of servers. The first being collective
 consciousness, aka etcd, allowing storing information about the services,
 like which upstream servers for your load balancers are on which IP addresses.
 Second is fleetd, which uses etcd to store and read data. It starts docker
