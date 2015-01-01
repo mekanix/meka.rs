@@ -101,3 +101,13 @@ permalink: /resume/
 ###Home Invest
 > ######May 2006 - Aug 2006
 > Responsible for the implementation, administration and maintenance of Mail, DHCP, DNS and Domain Controler
+
+##Interests
+
+###Vice-President of Linux User Group of Novi Sad (LUGoNS)
+> ######May 2006 - NOW
+> Organizing events, maintaining infrastructure and researching and documenting new technologies and solutions used by [LUGoNS](https://lugons.org/)
+
+###Founder of Lust for Trust
+> ######Oct 2008 - NOW
+> [Lust for Trust](https://www.facebook.com/lustfortrust) is a metal band I sing, play guitar, write, compose, produce and record for
