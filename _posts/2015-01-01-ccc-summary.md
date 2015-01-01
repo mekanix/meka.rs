@@ -27,14 +27,14 @@ understands me, she's pushing me in the right direction? I must be dreaming.
 Let me repeat. My fiancé was excited about seeing particle accelerator more
 then buying new camera (she's also amateur photographer). How cool is that?
 
-OK, we're at the airport. As I've never flew in an airplane before, I have no
+OK, we're at the airport. As I've never flew in an airplane before, I had no
 idea what to expect. It was fun, of course. Seeing the clouds from above,
 seeing the Sun, as it's winter and it's cloudy every day. The G force when
 taking off was something I should have anticipated, but I was so surprised. And
-most of all, the size of Munich and Hamburg airport was astonishing. Let me
+most of all, the size of Munich and Hamburg airports was astonishing. Let me
 explain. I was born and I still live in a town of 300k people. We don't even
 have an airport, so seeing something that huge was great. Oh, and seeing that
-even Germans get some things late.
+even Germans get some things too late was so precious to me.
 
 We're in Hamburg. As my fiancé and I can't speak German, it's fun. It's so well
 organized that we can not comprehend it. It took me 4 days to figure out how to
@@ -71,7 +71,7 @@ street for directions or help in English, ask the black guy, as Germans and
 English are not really tight. It's not about racism, it's just that there's a
 huge chance that black guy is actually from USA and can understand you. Of
 course, we decided to take German classes once we get home. Ideally, knowing
-English, German, Spanish and Chinese, your prepared for the world. We'll see
+English, German, Spanish and Chinese, you're prepared for the world. We'll see
 how good we'll become at learning new languages, but hey, I learn new
 programming languages once a year. What's a new spoken language compared to
 that. :o) We're preparing for the flight home, as tomorrow morning we're
