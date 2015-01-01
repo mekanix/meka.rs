@@ -109,5 +109,5 @@ permalink: /resume/
 > Organizing events, maintaining infrastructure and researching and documenting new technologies and solutions used by [LUGoNS](https://lugons.org/)
 
 ###Founder of Lust for Trust
-> ######Oct 2008 - NOW
+> ######Oct 2007 - NOW
 > [Lust for Trust](https://www.facebook.com/lustfortrust) is a metal band I sing, play guitar, write, compose, produce and record for
