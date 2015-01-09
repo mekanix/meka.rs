@@ -41,6 +41,16 @@ permalink: /resume/
 > - Vagrant
 > - AWS
 
+### Reciprocity Labs
+> ##### Dec 2014 - NOW
+>  Python developer and security adviser for [Reciprocity Labs](http://reciprocitylabs.com)
+>
+> - Python (Flask)
+> - Vagrant/Ansible
+> - Server hardening
+> - MySQL
+> - REST API
+
 ### Lambda Solutions
 > ##### Apr 2014 - Jun 2014
 > Hosting solutions for Moodle and Totara e-learning
