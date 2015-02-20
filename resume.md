@@ -30,7 +30,7 @@ permalink: /resume/
 
 ### Freelance GNU/Linux hacker
 > ##### Jun 2014 - NOW
-> Project of decentralized management of data centers, [One Love](https://github.com/one-love/one-love)
+> Project of decentralized management of data centers, [One Love](https://github.com/one-love)
 >
 > - Ansible
 > - Django
@@ -40,6 +40,18 @@ permalink: /resume/
 > - Debian
 > - Vagrant
 > - AWS
+
+### Full Stack WEB Developer and DevOps
+> ##### Jan 2015 - NOW
+> Project for creating a platform for writing, lectoring and publishing magazines, [Liberator](https://github.com/libreoss)
+>
+> - Django
+> - PostgreSQL
+> - AngularJS
+> - InuitCSS
+> - Debian
+> - Vagrant
+> - Ansible
 
 ### Reciprocity Labs
 > ##### Dec 2014 - NOW
