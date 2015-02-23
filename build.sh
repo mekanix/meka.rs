@@ -5,7 +5,7 @@ set -e
 rm -rf /usr/share/nginx/html
 
 apt-get update
-apt-get install -y curl ruby1.9.1-dev rubygems git-core locales
+apt-get install -y curl ruby1.9.1-dev rubygems git-core locales zlib1g-dev
 
 curl -sL https://deb.nodesource.com/setup | bash -
 apt-get install -y nodejs
