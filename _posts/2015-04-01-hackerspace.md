@@ -5,12 +5,10 @@ tags:
   - hackerspace
 ---
 
-Wishes
-======
-
 I think it's about 15 years now that I want a hackerspace in my town, and today
-that dream become reality, but let's go to the beginnings and see how it all
-unfolded.
+that dream become reality. The hackerspace or makerspace (I never could tell
+the difference) is and will be alternate place for acquiring knowledge.
+Let's go to the beginnings and see how it all unfolded.
 
 Inspiration
 ===========
