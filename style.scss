@@ -161,9 +161,26 @@ a {
 }
 
 .vertical-line {
-    border-left: thick solid #7789d9;
+  border-left: thick solid #7789d9;
 }
 
 .dashed-hr {
   border: 1px dashed #ccc;
+}
+
+.header-link {
+  left: -0.5em;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+  -moz-transition: opacity 0.2s ease-in-out 0.1s;
+  -ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
 }

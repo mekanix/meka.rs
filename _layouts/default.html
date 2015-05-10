@@ -23,6 +23,11 @@
         title="{{ site.name }} - {{ site.description }}"
         href="{{ site.baseurl }}/feed.xml"
     >
+    <link
+        href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+        rel="stylesheet"
+    >
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   </head>
   <body>
     <div class="menu">
@@ -38,5 +43,18 @@
     <div id="main" role="main" class="container vertical-line">
       {{ content }}
     </div>
+    <script>
+    $(function() {
+      return $("h2, h3, h4, h5, h6").each(function(i, el) {
+        var $el, icon, id;
+        $el = $(el);
+        id = $el.attr('id');
+        icon = '<i class="fa fa-link"></i>';
+        if (id) {
+          return $el.prepend($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+        }
+      });
+    });
+    </script>
   </body>
 </html>
