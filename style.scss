@@ -45,18 +45,8 @@ code {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding-left: 5px;
-}
-
-.avatar {
-  position: relative;
-  z-index: 100;
-}
-
-.avatar__img {
-  display: block;
-  width: 100%;
-  border-radius: 500em;
+  padding-left: 10px;
+  padding-top: 86px;
 }
 
 .site-name {
@@ -71,25 +61,6 @@ code {
   .post__title--index {
     text-align: right;
   }
-}
-
-.top-banner {
-  height: $inuit-base-spacing-unit;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: $background--primary;
-  z-index: 1000;
-}
-
-.footer {
-  background: $background--primary;
-  height: 2 * $inuit-base-spacing-unit;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .date {
@@ -132,6 +103,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
+  position: fixed;
 }
 
 .logo {
