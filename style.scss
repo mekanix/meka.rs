@@ -71,6 +71,8 @@ code {
 @import "../bower_components/inuit-widths/trumps.widths";
 @import "../bower_components/inuit-clearfix/trumps.clearfix";
 
+$menu-height: 50px;
+
 .text--right {
    text-align: right !important;
 }
@@ -90,7 +92,7 @@ a {
 
 .menu {
   background: #4456a6;
-  height: 50px;
+  height: $menu-height;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   -o-border-radius: 1em;
@@ -118,8 +120,8 @@ a {
 
 .menu-links {
   text-align: right;
-  height: 50px;
-  line-height: 50px;
+  height: $menu-height;
+  line-height: $menu-height;
   padding-right: 1%;
 }
 
