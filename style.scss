@@ -45,6 +45,7 @@ code {
 .container {
   max-width: 800px;
   margin: 0 auto;
+  padding-left: 5px;
 }
 
 .avatar {
@@ -63,15 +64,10 @@ code {
 }
 
 .post__title-wrapper {
-  margin-top: -60px;
   text-align: right;
 }
 
 .post {
-  &:first-of-type {
-    margin-top: -70px;
-  }
-
   .post__title--index {
     text-align: right;
   }
@@ -116,4 +112,58 @@ code {
 
 .text--justify {
   text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  background: #4456a6;
+  height: 86px;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -o-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -khtml-border-radius: 1em;
+  border-radius: 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  float: left;
+  padding: 2px;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -o-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -khtml-border-radius: 1em;
+  border-radius: 1em;
+}
+
+.menu-links {
+  text-align: right;
+  height: 86px;
+  line-height: 86px;
+  padding-right: 1%;
+}
+
+.menu-link {
+  color: #bbb;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.vertical-line {
+    border-left: thick solid #7789d9;
+}
+
+.dashed-hr {
+  border: 1px dashed #ccc;
 }

@@ -24,34 +24,19 @@
         href="{{ site.baseurl }}/feed.xml"
     >
   </head>
-  <body class="pt pb+ pl pr">
-    <div class="top-banner">
-      <div class="container layout layout--flush pl pr">
-        <nav class="layout__item">
-          <a href="{{ site.baseurl }}/">Home</a>
-          <a href="{{ site.baseurl }}/blog">Blog</a>
-          <a href="{{ site.baseurl }}/resume">Resume</a>
-        </nav>
+  <body>
+    <div class="menu">
+      <img class="logo" src="http://www.gravatar.com/avatar/9354411abfc8d1207a9ce00a7aa0aadc"/>
+      <div class="menu-links">
+        <a href="{{ site.baseurl }}/" class="menu-link">Home</a>
+        <a href="{{ site.baseurl }}/blog/" class="menu-link">Blog</a>
+        <a href="{{ site.baseurl }}/resume/" class="menu-link">Resume</a>
+        <a href="{{ site.baseurl }}/contact/" class="menu-link">Contact</a>
       </div>
     </div>
-    <header class="container layout layout--flush">
-      <div class="layout__item 1/10 pt">
-        <a title="Meka" href="{{ site.baseurl }}/" class="avatar">
-          <img class="avatar__img" src="{{ site.avatar }}">
-        </a>
-      </div>
-    </header>
 
-    <div id="main" role="main" class="container text--justify">
+    <div id="main" role="main" class="container vertical-line">
       {{ content }}
     </div>
-
-    <div class="footer">
-      <div class="container text--center">
-        {% include svg-icons.html %}
-      </div>
-    </div>
-
-    {% include analytics.html %}
   </body>
 </html>

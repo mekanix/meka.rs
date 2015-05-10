@@ -9,11 +9,15 @@ permalink: /resume/
 
 - e-mail: meka@lugons.org
 
+<hr/>
+
 ##Personal Statement
 
 > Analytical, resourceful and problem-solving technical business analyst and IT professional with extensive experience in providing systems administration. Hard-working, quick and efficient, a team player with excellent communication skills, and eager to take on new challenges.
 >
 > I have actively used GNU/Linux  since 2000. and for 8 years it has been the only system that I used. I also have experience in administering FreeBSD, OpenBSD and OpenSolaris. In 2006. I became the Vice President of Linux User Group of Novi Sad (LUGoNS). As part of my dutties I organized a series of lectures, workshops and Install Day events, with emphasis on the use of free software (primarily GNU/Linux)
+
+<hr/>
 
 ##Education
 
@@ -21,10 +25,14 @@ permalink: /resume/
 > ######Faculty of Sciences, University Of Novi Sad
 > Studying all aspect of IT including Computer Networks, Software Engineering, Data Structures and Algorithms, E-business and Artificial Intelligence
 
+<hr class="dashed-hr"/>
+
 ###Technician of electronics
 > ######The electricity & electronics middle school "Mihajlo Pupin" Novi Sad
 > Mihajlo Pupin Novi Sadtronics Middle School
 > Designing and building of electrical circuits, including simple digital boards and fixing all non-SMP low voltage devices.
+
+<hr/>
 
 ##Experience
 
@@ -41,6 +49,8 @@ permalink: /resume/
 > - Vagrant
 > - AWS
 
+<hr class="dashed-hr"/>
+
 ### Full Stack WEB Developer and DevOps
 > ##### Jan 2015 - NOW
 > Project for creating a platform for writing, lectoring and publishing magazines, [Liberator](https://github.com/libreoss)
@@ -53,6 +63,8 @@ permalink: /resume/
 > - Vagrant
 > - Ansible
 
+<hr class="dashed-hr"/>
+
 ### Reciprocity Labs
 > ##### Dec 2014 - NOW
 >  Python developer and security adviser for [Reciprocity Labs](http://reciprocitylabs.com)
@@ -63,6 +75,8 @@ permalink: /resume/
 > - MySQL
 > - REST API
 
+<hr class="dashed-hr"/>
+
 ### Lambda Solutions
 > ##### Apr 2014 - Jun 2014
 > Hosting solutions for Moodle and Totara e-learning
@@ -72,6 +86,8 @@ permalink: /resume/
 > - Amazon WEB Services
 > - Chef
 > - MySQL
+
+<hr class="dashed-hr"/>
 
 ### Secent LLC
 > ###### Oct 2013 - NOW
@@ -86,6 +102,8 @@ permalink: /resume/
 > - Amazon WEB Services
 > - PostgreSQL
 
+<hr class="dashed-hr"/>
+
 > ###### Feb 2013 - Oct 2013
 > Project for an aerospace company, including testing software and building packages for all inhouse projects
 >
@@ -93,6 +111,8 @@ permalink: /resume/
 > - Redmine
 > - VMWare
 > - Git
+
+<hr class="dashed-hr"/>
 
 ### Saturized
 > ###### Aug 2011 - Feb 2013
@@ -108,6 +128,8 @@ permalink: /resume/
 > - EJabberd
 > - Django
 
+<hr class="dashed-hr"/>
+
 ###DDOR
 > ######Aug 2006 - Aug 2011
 > Expertise in Unix and Linux system installation, configuration, administration, the development and testing of backup and recovery methodologies, troubleshooting, capacity and performance planning, performance tuning, preventative maintenance, monitoring and alerting setup. Also done with
@@ -120,15 +142,21 @@ permalink: /resume/
 > - Tomcat APP
 > - Puppet (server orchestration)
 
+<hr class="dashed-hr"/>
+
 ###Home Invest
 > ######May 2006 - Aug 2006
 > Responsible for the implementation, administration and maintenance of Mail, DHCP, DNS and Domain Controler
+
+<hr/>
 
 ##Interests
 
 ###Vice-President of Linux User Group of Novi Sad (LUGoNS)
 > ######May 2006 - NOW
 > Organizing events, maintaining infrastructure and researching and documenting new technologies and solutions used by [LUGoNS](https://lugons.org/)
+
+<hr class="dashed-hr"/>
 
 ###Founder of Lust for Trust
 > ######Oct 2007 - NOW
