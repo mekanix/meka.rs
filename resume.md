@@ -159,6 +159,7 @@ Responsible for capacity planning, including allocating storage, providing hardw
 - Puppet
 - EJabberd
 - Django
+- Jenkins
 
 <hr class="dashed-hr"/>
 
