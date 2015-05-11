@@ -51,6 +51,7 @@ DevOps and Automation of ERP system for [fSD](https://fsd.rs)
 - PHP
 - Percona
 - Nginx
+- Jenkins
 
 <hr class="dashed-hr"/>
 
