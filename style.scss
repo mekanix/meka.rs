@@ -9,6 +9,7 @@ $inuit-enable-paddings: true;
 $inuit-enable-paddings--large: true;
 
 $background--primary: #eaeaea;
+$even-background: #f0f0ff;
 
 @import "../bower_components/inuit-mixins/tools.mixins";
 
@@ -156,4 +157,8 @@ h4:hover .header-link,
 h5:hover .header-link,
 h6:hover .header-link {
   opacity: 1;
+}
+
+.post:nth-child(even) {
+  background: $even-background;
 }
