@@ -23,9 +23,9 @@ harmonics stand out. You'll probably ask yourself, just like I did, why don't
 we have these amps around. I don't know, but I'm almost sure it has something
 to do with economy.
 
-There is some area of audio amps where tubes are superb and transistors can ever
-come close to them: distortion in guitar amps. The reason for this is that tubes
-and transistors act totally different when they are saturated, hence the
+There is some area of audio amps where tubes are superb and transistors can't
+ever come close to them: distortion in guitar amps. The reason for this is that
+tubes and transistors act totally different when they are saturated, hence the
 difference in sound of distortion.
 
 I'm a guitar player, among other things, and the best think I can think of, in
