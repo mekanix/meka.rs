@@ -1,0 +1,14 @@
+---
+- name: change permissions on docker dir
+  sudo: yes
+  file:
+    path: /var/lib/docker
+    mode: 0755
+    state: directory
+
+- name: change permissions on volumes dir
+  sudo: yes
+  file:
+    path: /var/lib/docker/volumes
+    mode: 0755
+    state: directory
