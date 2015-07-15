@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 
-######GNU/Linux Administrator
+######Senior DevOps and GNU/Linux System Administrator
 
 - e-mail: meka@lugons.org
 
