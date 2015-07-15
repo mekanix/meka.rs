@@ -6,6 +6,13 @@ tags:
   - tilda
 ---
 
+As I had terrible English teacher in high school who was stupid, stubborn and
+overall bad person, who only knew tenses, I never learned anything from her.
+Luckily, she only lectured tenses, so there wasn't much of English language I
+hate because of her. I'll write about what I learn, starting from scratch.
+
+PS. Thank you, Maja!
+
 Present Simple Tense
 --------------------
 
