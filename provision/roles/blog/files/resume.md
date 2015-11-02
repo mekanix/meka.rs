@@ -7,8 +7,6 @@ permalink: /resume/
 
 ######Senior DevOps and GNU/Linux System Administrator
 
-- e-mail: meka@lugons.org
-
 <hr/>
 
 ##Personal Statement
