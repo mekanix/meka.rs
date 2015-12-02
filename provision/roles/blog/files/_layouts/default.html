@@ -7,8 +7,7 @@
         name='viewport'
         content='width=device-width,
                  initial-scale=1.0,
-                 user-scalable=yes'
-    >
+                 user-scalable=yes'>
     <title>
       {% if page.title %}{{ page.title }} –
       {% endif %}{{ site.name }} –
@@ -16,18 +15,21 @@
     </title>
     <meta name="author" content="{{ site.name }}">
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl }}/style.css">
     <link
         rel="alternate"
         type="application/rss+xml"
         title="{{ site.name }} - {{ site.description }}"
-        href="{{ site.baseurl }}/feed.xml"
-    >
+        href="{{ site.baseurl }}/feed.xml">
     <link
         href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
-        rel="stylesheet"
-    >
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        rel="stylesheet">
+    <script
+      src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+    </script>
   </head>
   <body>
     <div class="menu">
@@ -44,19 +46,62 @@
 
     <div id="main" role="main" class="container text--justify vertical-line">
       {{ content }}
+      <a
+        href="https://twitter.com/share"
+        class="twitter-share-button"{count}
+        data-via="meka.rs">
+        Tweet
+      </a>
+      <a
+        href="https://twitter.com/meka_floss"
+        class="twitter-follow-button"
+        data-show-count="false">
+        Follow @meka_floss
+      </a>
     </div>
     <script>
-    $(function() {
-      return $("h2, h3, h4, h5, h6").each(function(i, el) {
-        var $el, icon, id;
-        $el = $(el);
-        id = $el.attr('id');
-        icon = '<i class="fa fa-link"></i>';
-        if (id) {
-          return $el.prepend($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+      !function(d,s,id){
+        var js;
+        var fjs=d.getElementsByTagName(s)[0];
+        var p=/^http:/.test(d.location)?'http':'https';
+
+        if(!d.getElementById(id)){
+          js=d.createElement(s);
+          js.id=id;
+          js.src=p+'://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js,fjs);
         }
+      }(document, 'script', 'twitter-wjs');
+    </script>
+    <script>
+      !function(d,s,id){
+        var js;
+        var fjs=d.getElementsByTagName(s)[0];
+        var p=/^http:/.test(d.location)?'http':'https';
+        if(!d.getElementById(id)){
+          js=d.createElement(s);
+          js.id=id;
+          js.src=p+'://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js,fjs);
+        }
+      }(document, 'script', 'twitter-wjs');
+    </script>
+    <script>
+      $(function() {
+        return $("h2, h3, h4, h5, h6").each(function(i, el) {
+          var $el, icon, id;
+          $el = $(el);
+          id = $el.attr('id');
+          icon = '<i class="fa fa-link"></i>';
+          if (id) {
+            return $el.prepend($("<a />")
+              .addClass("header-link")
+              .attr("href", "#" + id)
+              .html(icon)
+            );
+          }
+        });
       });
-    });
     </script>
   </body>
 </html>
