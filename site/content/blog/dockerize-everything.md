@@ -1,6 +1,6 @@
 Title: Dockerize Everything
 Date: 2015-06-18 22:00
-Slug: blog/dockerize-everything
+Slug: dockerize-everything
 
 
 Often I hear the "Dockerize Everything" phrase. To be honest, when ever there's

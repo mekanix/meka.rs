@@ -1,6 +1,6 @@
 Title: Tilda Center Summer
 Date: 2015-06-28 22:00
-Slug: blog/tilda-center-summer
+Slug: tilda-center-summer
 
 
 As my plans for summer festivals and beaches are ruined, my activity in

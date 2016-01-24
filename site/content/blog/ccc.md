@@ -1,6 +1,6 @@
 Title: CCC
 Date: 2014-12-29 22:00
-Slug: blog/ccc
+Slug: ccc
 
 
 Of course, I'm talking about [CCC](http://ccc.de). As there's a lot of talk

@@ -1,6 +1,6 @@
 Title: Cloud Computing Basics 7
 Date: 2014-11-21 22:00
-Slug: blog/cloud-computing-basics-7
+Slug: cloud-computing-basics-7
 
 
 There's been so much talk about Consul-template and I've never shown you any
@@ -91,4 +91,4 @@ go to site, register, and add your repository. Play with it, it's dead simple. I
 gave my best to give you posts that have no bull shit talk, because I was mad on
 todays media representing the cloud. I hope I did it. Happy dockering!
 
-[previous](/blog/2014/11/20/cloud-computing-basics-6)
+[previous](/2014/11/20/cloud-computing-basics-6)

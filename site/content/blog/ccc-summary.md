@@ -1,6 +1,6 @@
 Title: CCC Summary
 Date: 2015-01-01 22:00
-Slug: blog/ccc-summary
+Slug: ccc-summary
 
 
 To be honest, this CCC was mental healing for me. I went on a trip with a lot

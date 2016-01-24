@@ -1,6 +1,6 @@
 Title: OpenBSD WiFi
 Date: 2015-08-18 22:00
-Slug: blog/openbsd-wifi
+Slug: openbsd-wifi
 
 
 I'm a proud owner of [APU](http://pcengines.ch/apu.htm). I'm currently running

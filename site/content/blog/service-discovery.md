@@ -1,6 +1,6 @@
 Title: Service Discovery
 Date: 2014-11-09 22:00
-Slug: blog/service-discovery
+Slug: service-discovery
 
 
 Yes, docker is my new favorite toy, and it is big word on the Internet. So I have my hands in the gutter trying to figure out the optimal way to configure my cloud. What's the big deal? For start, etcd is not my best friend, any more. I like Consul implementation and features much more. Hence, CoreOS is not the perfect distribution. I'm using Debian Jessie which is in beta2 stage in the time of writing this post. The reson for this switch is Registrator. Consul, Registrator and Consul-Template are 3 projects that make service discovery a piece of cake.

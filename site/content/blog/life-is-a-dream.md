@@ -1,6 +1,6 @@
 Title: Life is a Dream
 Date: 2014-12-09 22:00
-Slug: blog/life-is-a-dream
+Slug: life-is-a-dream
 
 
 Ever heard of it? Life is a dream? Did you ever think about it? I did. A lot! 

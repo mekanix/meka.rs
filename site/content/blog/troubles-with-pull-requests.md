@@ -1,6 +1,6 @@
 Title: Troubles with pull requests
 Date: 2015-02-27 22:00
-Slug: blog/troubles-with-pull-requests
+Slug: troubles-with-pull-requests
 
 
 Imagine two repos with a pull request from one to another. What you're actually

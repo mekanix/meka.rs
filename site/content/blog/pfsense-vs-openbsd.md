@@ -1,6 +1,6 @@
 Title: pfSense vs OpenBSD
 Date: 2015-06-07 22:00
-Slug: blog/pfsense-vs-openbsd
+Slug: pfsense-vs-openbsd
 
 
 I've had pfSense on my router for some time now. To be honest, about a year. The

@@ -1,6 +1,6 @@
 Title: Cloud Computing
 Date: 2014-11-02 22:00
-Slug: blog/cloud-computing
+Slug: cloud-computing
 
 
 As [nobody understands the cloud](http://www.youtube.com/watch?v=ecZL4Q2EVuY),

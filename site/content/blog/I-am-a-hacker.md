@@ -1,6 +1,6 @@
 Title: I am a hacker
 Date: 2015-11-30 22:00
-Slug: blog/I-am-a-hacker
+Slug: I-am-a-hacker
 
 
 What is a hacker? Who the hell knows? On top of that, I'm clamming I'm one of

@@ -1,6 +1,6 @@
 Title: Cloud Computing Basics 1
 Date: 2014-11-13 22:00
-Slug: blog/cloud-computing-basics-1
+Slug: cloud-computing-basics-1
 
 
 The first critic I've got for a blog was "Yeah, it's all nice and shinny, but
@@ -76,4 +76,4 @@ docker run
 
 Happy docking :o)
 
-[next](/blog/2014/11/14/cloud-computing-basics-2)
+[next](/2014/11/14/cloud-computing-basics-2)

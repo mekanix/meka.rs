@@ -1,6 +1,6 @@
 Title: Hackerspace
 Date: 2015-04-01 22:00
-Slug: blog/hackerspace
+Slug: hackerspace
 
 
 I think it's about 15 years now that I want a hackerspace in my town, and today

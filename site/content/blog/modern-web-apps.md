@@ -1,6 +1,6 @@
 Title: Modern WEB applications
 Date: 2015-02-22 22:00
-Slug: blog/modern-web-apps
+Slug: modern-web-apps
 
 
 Who am I to tell you about WEB applications? Even worse, modern ones? I am

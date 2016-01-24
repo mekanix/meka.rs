@@ -1,6 +1,6 @@
 Title: Presonus Troubles
 Date: 2015-05-23 22:00
-Slug: blog/presonus-troubles
+Slug: presonus-troubles
 
 
 For some time now, I have problems with Presonus AudioBox 1818VSL. The problem

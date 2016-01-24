@@ -1,6 +1,6 @@
 Title: PCEngines APU
 Date: 2014-12-02 22:00
-Slug: blog/pcengines-apu
+Slug: pcengines-apu
 
 
 I had TP-Link provided by ISP for years, and I never bothered to replace it. It 

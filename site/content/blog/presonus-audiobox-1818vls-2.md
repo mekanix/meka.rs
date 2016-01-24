@@ -1,6 +1,6 @@
 Title: Presonus Audiobox 1818VLS 2
 Date: 2014-12-15 22:00
-Slug: blog/presonus-audiobox-1818vls-2
+Slug: presonus-audiobox-1818vls-2
 
 
 And it finally arrived. First, right channel on the headphones didn't work. I 

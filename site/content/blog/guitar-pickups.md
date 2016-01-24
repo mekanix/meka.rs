@@ -1,6 +1,6 @@
 Title: Guitar Pickups
 Date: 2015-07-25 22:00
-Slug: blog/guitar-pickups
+Slug: guitar-pickups
 
 
 When I was searching for my guitar, I read a lot of articles about pickups, too.

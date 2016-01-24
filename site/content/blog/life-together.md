@@ -1,6 +1,6 @@
 Title: Life Together
 Date: 2015-03-18 22:00
-Slug: blog/life-together
+Slug: life-together
 
 
 I'm trying to keep my private life private, but this is just too weird and works

@@ -1,6 +1,6 @@
 Title: Presonus Audiobox 1818VLS
 Date: 2014-12-07 22:00
-Slug: blog/presonus-audiobox-1818vls
+Slug: presonus-audiobox-1818vls
 
 
 For years I have [M-Audio Delta 

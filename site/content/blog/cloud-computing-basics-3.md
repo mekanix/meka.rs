@@ -1,10 +1,10 @@
 Title: Cloud Computing Basics 3
 Date: 2014-11-15 22:00
-Slug: blog/cloud-computing-basics-3
+Slug: cloud-computing-basics-3
 
 
 So I've scratched the surface of a service discovery in a
-[previous post](/blog/2014/11/14/cloud-computing-basics-2). Let's dream on. Up
+[previous post](/2014/11/14/cloud-computing-basics-2). Let's dream on. Up
 to now, I've only written about running a single container on a single host.
 But I'm poor, I want multiple things on the same hardware. Let's go back a
 little. Docker containers are like tiny virtual machines. They have IP address,
@@ -71,5 +71,5 @@ application in virtual machine, but that's not the reason I told you to do this.
 The reason is that you have Consul's WEB interface available at
 [Vagrant VM](http://192.168.33.33:8500). Now go and play with it :o)
 
-[previous](/blog/2014/11/14/cloud-computing-basics-2)
-[next](/blog/2014/11/16/cloud-computing-basics-4)
+[previous](/2014/11/14/cloud-computing-basics-2)
+[next](/2014/11/16/cloud-computing-basics-4)

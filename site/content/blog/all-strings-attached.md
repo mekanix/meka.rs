@@ -1,6 +1,6 @@
 Title: All Strings Attached
 Date: 2015-06-06 22:00
-Slug: blog/all-strings-attached
+Slug: all-strings-attached
 Tags: quantum; physics
 Author: ahrimana
 

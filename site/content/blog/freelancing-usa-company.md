@@ -1,6 +1,6 @@
 Title: Freelancing and USA company
 Date: 2014-11-27 22:00
-Slug: blog/freelancing-usa-company
+Slug: freelancing-usa-company
 
 
 Sorry, folks, but I've got nothing nice for this post. Last night I got an 

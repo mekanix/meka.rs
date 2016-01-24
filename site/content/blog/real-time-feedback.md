@@ -1,6 +1,6 @@
 Title: Real Time Feedback
 Date: 2014-11-21 22:00
-Slug: blog/real-time-feedback
+Slug: real-time-feedback
 
 
 As I'm learning about WEB development, I'm learning how not to do it. Anyone can
