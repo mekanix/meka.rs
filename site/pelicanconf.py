@@ -38,13 +38,12 @@ DEFAULT_PAGINATION = 10
 THEME = 'clean-blog'
 DELETE_OUTPUT_DIRECTORY = True
 INDEX_SAVE_AS = 'blog/index.html'
-MENUITEMS = (
-    ('blog', '/blog'),
-    ('feed', '/feeds/atom.xml'),
-)
 DELETE_OUTPUT_DIRECTORY = True
 DISQUS_SITENAME = "mekars"
 GITHUB_URL = "https://github.com/mekanix"
 TWITTER_URL = "https://twitter.com/meka_floss"
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+MENUITEMS = (
+    ('blog', '/blog'),
+)
