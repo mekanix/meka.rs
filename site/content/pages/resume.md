@@ -45,7 +45,7 @@ and fixing all non-SMP low voltage devices.
 
 ##Experience
 
-### Freelance GNU/Linux hacker
+### One Love
 
 ###### Jun 2014 - NOW
 
@@ -53,21 +53,27 @@ Project of decentralized management of data centers, provision, deployment and
 development with emphasis on Docker and cloud technologies on which I'm working
 as a full stack developer: [One Love](https://github.com/one-love)
 
-- Ansible
-- Flask
-- MongoDB
-- Celery
-- RabbitMQ
-- REST
-- InuitCSS
-- Debian
-- Vagrant
-- AWS
-- Digital Ocean
+- Frontend
+    - React
+    - Redux
+    - WebPack
+    - InuitCSS
+- Backend
+    - Flask
+    - Celery
+    - REST API
+    - Ansible
+- Administration
+    - MongoDB
+    - RabbitMQ
+    - Debian
+    - Vagrant
+    - AWS
+    - Digital Ocean
 
 <hr class="dashed-hr"/>
 
-### Full Stack WEB Developer and DevOps
+### Libeerator
 
 ###### Jan 2015 - NOW
 
@@ -75,13 +81,16 @@ Project for creating a platform for writing, lectoring and publishing magazines,
 on which I'm contributing as system administrator, devops consultant and full
 stack developer: [Liberator](https://github.com/libreoss)
 
-- Django
-- PostgreSQL
-- AngularJS
-- InuitCSS
-- Debian
-- Vagrant
-- Ansible
+- Frontend
+    - InuitCSS
+    - AngularJS
+- Backend
+    - Django
+- Administration
+    - PostgreSQL
+    - Debian
+    - Vagrant
+    - Ansible
 
 <hr class="dashed-hr"/>
 
