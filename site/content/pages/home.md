@@ -8,5 +8,4 @@ status: hidden
 - Co-founder of [Tilda Center](http://tilda.center) - Hackerspace in Novi Sad
 - [Freelancer](https://www.upwork.com/o/profiles/users/_~01edbb172a83f0a9d9/)
 - Vice president of [LUGoNS](https://lugons.org)
-- upwork: [mekanix](https://www.upwork.com/o/profiles/users/_~01edbb172a83f0a9d9/)
 - irc: [meka@irc.freenode.net](https://webchat.freenode.net/?channels=tilda.center)

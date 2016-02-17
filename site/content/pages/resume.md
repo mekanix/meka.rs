@@ -73,7 +73,7 @@ as a full stack developer: [One Love](https://github.com/one-love)
 
 <hr class="dashed-hr"/>
 
-### Libeerator
+### Liberator
 
 ###### Jan 2015 - NOW
 
@@ -91,6 +91,32 @@ stack developer: [Liberator](https://github.com/libreoss)
     - Debian
     - Vagrant
     - Ansible
+
+<hr class="dashed-hr"/>
+
+### Photoslurp
+
+###### Dec 2015 - NOW
+
+Project for collecting, exchanging and requesting media rights for pictures and
+art: [Photoslurp](http://www.photoslurp.com/)
+
+- Frontend
+    - Bootstrap
+    - JQuery
+    - Underscore
+    - Backbone
+- Backend
+    - Django
+    - Celery
+    - REST API
+    - Ansible
+- Administration
+    - PostgreSQL
+    - RabbitMQ
+    - Redis
+    - Debian
+    - Vagrant
 
 <hr class="dashed-hr"/>
 
