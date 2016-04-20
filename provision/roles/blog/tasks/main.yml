@@ -1,6 +1,6 @@
 ---
 - name: create volume for blog
-  sudo: yes
+  become: yes
   file:
     path: /var/lib/docker/volumes/blog
     owner: "{{ rsync_user }}"
@@ -8,10 +8,10 @@
     state: directory
 
 - name: copy site to server
-  sudo: yes
+  become: yes
   synchronize:
-    delete: yes
-    src: _site/
+    src: ../site/output/
     dest: /var/lib/docker/volumes/blog
+    delete: yes
   tags:
     - deploy

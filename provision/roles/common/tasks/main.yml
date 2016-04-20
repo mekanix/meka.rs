@@ -1,17 +1,17 @@
 ---
 - name: update apt
-  sudo: yes
+  become: yes
   apt:
     update_cache: yes
 
 - name: install docker
-  sudo: yes
+  become: yes
   apt:
     name: docker.io
     state: latest
 
 - name: start docker
-  sudo: yes
+  become: yes
   service:
     name: docker
     enabled: yes

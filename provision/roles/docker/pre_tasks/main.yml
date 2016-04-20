@@ -1,6 +1,6 @@
 ---
 - name: add unstable repo
-  sudo: yes
+  become: yes
   template:
     src: stretch.list.j2
     dest: /etc/apt/sources.list.d/stretch.list
@@ -8,7 +8,7 @@
     group: root
 
 - name: pin docker.io
-  sudo: yes
+  become: yes
   template:
     src: docker-preferences.j2
     dest: /etc/apt/preferences.d/docker
