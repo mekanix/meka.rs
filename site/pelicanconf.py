@@ -27,8 +27,13 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/meka_floss'),
-          ('upwork', 'https://upwork.com/'),)
+SOCIAL = (
+    ('github', 'https://github.com/mekanix'),
+    ('twitter', 'https://twitter.com/meka_floss'),
+    ('user', 'https://www.upwork.com/o/profiles/users/_~01edbb172a83f0a9d9/'),
+    ('envelope', 'mailto:meka@tilda.center'),
+    ('rss', FEED_ALL_ATOM),
+)
 
 DEFAULT_PAGINATION = 10
 
