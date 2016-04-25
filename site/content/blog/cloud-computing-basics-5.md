@@ -1,6 +1,8 @@
 Title: Cloud Computing Basics 5
 Date: 2014-11-17 22:00
 Slug: cloud-computing-basics-5
+Author: Meka
+Tags: cloud, docker, service discovery, cloud basics
 
 
 You hear me talk about thousands of servers and never about how to get to the
@@ -53,5 +55,5 @@ describe it but "read all from the
 [provision directory](https://github.com/mekanix/meka.rs/tree/master/provision)".
 It's simple and powerful.
 
-[previous](/2014/11/16/cloud-computing-basics-4)
-[next](/2014/11/20/cloud-computing-basics-6)
+[previous](/blog/2014/11/16/cloud-computing-basics-4/)
+[next](/blog/2014/11/20/cloud-computing-basics-6/)

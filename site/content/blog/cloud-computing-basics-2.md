@@ -1,10 +1,11 @@
 Title: Cloud Computing Basics 2
 Date: 2014-11-14 22:00
-Tags: cloud; docker; service-discovery; cloud-basics
 Slug: cloud-computing-basics-2
+Author: Meka
+Tags: cloud, docker, service discovery, cloud basics
 
 So I've scratched the surface of a cloud in a
-[previous post](/2014/11/13/cloud-computing-basics). Let's dream on. Let's
+[previous post](/blog/2014/11/13/cloud-computing-basics-1/). Let's dream on. Let's
 say you're hosting a [Django](https://www.djangoproject.com/) site. For start,
 let's assume that everything is inside one big container: Django, PostgreSQL,
 NginX, ...
@@ -59,5 +60,5 @@ enough). You can go wild with Consul variables and cloud setup. It's up to you
 and your team to find what should be shared through Consul, and what should be
 part of on-disk configuration.
 
-[previous](/2014/11/13/cloud-computing-basics)
-[next](/2014/11/15/cloud-computing-basics-3)
+[previous](/blog/2014/11/13/cloud-computing-basics-1/)
+[next](/blog/2014/11/15/cloud-computing-basics-3/)

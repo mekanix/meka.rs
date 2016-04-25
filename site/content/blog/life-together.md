@@ -1,10 +1,9 @@
 Title: Life Together
 Date: 2015-03-18 22:00
-Slug: life-together
-
+Tags: life
 
 I'm trying to keep my private life private, but this is just too weird and works
-too good to hide. For few years I'm living with my girlfriend and tings are
+too good to hide. For few years I'm living with my girlfriend and things are
 sometimes good, sometimes bad, as in any relationship (love or otherwise). To be
 honest, I got sick of bad times, because in most cases the reason for the
 situation to become bad is ridiculous: "you forgot to...", "you didn't..." and

@@ -1,6 +1,6 @@
 Title: Tube vs Transistor
 Date: 2015-06-07 22:00
-Slug: tube-vs-transistor
+Tags: music, electronics, amplifiers
 
 
 For so long I've listened about debate how tubes have "warmer" sound. All

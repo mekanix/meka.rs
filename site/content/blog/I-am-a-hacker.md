@@ -1,6 +1,8 @@
 Title: I am a hacker
 Date: 2015-11-30 22:00
 Slug: I-am-a-hacker
+Tags: hacking, life
+Author: meka
 
 
 What is a hacker? Who the hell knows? On top of that, I'm clamming I'm one of

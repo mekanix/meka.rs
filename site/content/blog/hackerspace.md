@@ -1,7 +1,6 @@
 Title: Hackerspace
 Date: 2015-04-01 22:00
-Slug: hackerspace
-
+Tags: hackerspace
 
 I think it's about 15 years now that I want a hackerspace in my town, and today
 that dream become reality. The hackerspace or makerspace (I never could tell

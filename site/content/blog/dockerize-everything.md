@@ -1,13 +1,13 @@
 Title: Dockerize Everything
 Date: 2015-06-18 22:00
-Slug: dockerize-everything
+Tags: cloud, docker
 
 
 Often I hear the "Dockerize Everything" phrase. To be honest, when ever there's
 a new technology, people praise it as "it fixes everything". I don't believe
 that's the truth about any technology, not even docker. It's not that I think
 docker is a bad thing. Hell, I wrote
-[series of blog posts about docker](/tag/cloud-basics/). I just think docker is
+[series of blog posts about docker](/tag/cloud-basics.html). I just think docker is
 used where it's not suited too often. One such example is data container. As it
 might be great for huge number of servers, it's not that great for small fleets
 of servers. For example, if you have nginx and data container such that data

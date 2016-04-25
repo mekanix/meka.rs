@@ -1,6 +1,7 @@
-Title: Cloud Computing
+Title: Cloud Computing - intro
 Date: 2014-11-02 22:00
-Slug: cloud-computing
+Author: Meka
+Tags: cloud, docker, service discovery, cloud basics
 
 
 As [nobody understands the cloud](http://www.youtube.com/watch?v=ecZL4Q2EVuY),

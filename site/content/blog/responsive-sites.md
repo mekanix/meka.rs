@@ -1,6 +1,6 @@
 Title: Responsive sites
 Date: 2015-03-10 22:00
-Slug: responsive-sites
+Tags: web development
 
 
 Probably this [mother fucking web site](http://motherfuckingwebsite.com/) sums

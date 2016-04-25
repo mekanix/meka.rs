@@ -1,6 +1,6 @@
 Title: Real Time Feedback
 Date: 2014-11-21 22:00
-Slug: real-time-feedback
+Tags: vim, hacking
 
 
 As I'm learning about WEB development, I'm learning how not to do it. Anyone can

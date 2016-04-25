@@ -1,6 +1,8 @@
 Title: Cloud Computing Basics 1
 Date: 2014-11-13 22:00
 Slug: cloud-computing-basics-1
+Author: meka
+Tags: cloud, cloud basics, docker, registrator, consul
 
 
 The first critic I've got for a blog was "Yeah, it's all nice and shinny, but
@@ -76,4 +78,4 @@ docker run
 
 Happy docking :o)
 
-[next](/2014/11/14/cloud-computing-basics-2)
+[next](/blog/2014/11/14/cloud-computing-basics-2/)

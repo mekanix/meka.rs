@@ -1,6 +1,6 @@
 Title: The Hell
 Date: 2015-05-14 22:00
-Slug: the-hell
+Tags: life
 
 
 Everyone hates the hospitals, I'm sure, but recent events made me wonder if I

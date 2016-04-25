@@ -1,6 +1,6 @@
 Title: Troubles with pull requests
 Date: 2015-02-27 22:00
-Slug: troubles-with-pull-requests
+Tags: git, github
 
 
 Imagine two repos with a pull request from one to another. What you're actually

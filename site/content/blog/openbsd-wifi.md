@@ -1,7 +1,6 @@
 Title: OpenBSD WiFi
 Date: 2015-08-18 22:00
-Slug: openbsd-wifi
-
+Tags: hacking, bsd, apu
 
 I'm a proud owner of [APU](http://pcengines.ch/apu.htm). I'm currently running
 OpenBSD on it. It's pretty [simple config](https://github.com/mekanix/openbsd-config).

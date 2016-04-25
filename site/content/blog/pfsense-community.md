@@ -1,10 +1,9 @@
 Title: pfSense Community
 Date: 2015-06-17 22:00
-Slug: pfsense-community
-
+Tags: pfsense
 
 Few days ago I wrote about
-[pfsense vs openbsd](/2015/06/07/pfsense-vs-openbsd) and
+[pfsense vs openbsd](/blog/2015/06/07/pfsense-vs-openbsd) and
 [twitted about it](https://twitter.com/meka_floss/status/607327909431361536). As
 you can see, it triggered a flamewar, which was never my intention. The reason I
 continued that flamewar (and one more with the same person on other thread) was

@@ -1,6 +1,6 @@
 Title: Tilda Center Summer
 Date: 2015-06-28 22:00
-Slug: tilda-center-summer
+Tags: hacking, hackerspace, tilda center
 
 
 As my plans for summer festivals and beaches are ruined, my activity in

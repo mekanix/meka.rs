@@ -1,7 +1,6 @@
 Title: Modern WEB applications
 Date: 2015-02-22 22:00
-Slug: modern-web-apps
-
+Tags: web development
 
 Who am I to tell you about WEB applications? Even worse, modern ones? I am
 system administrator, right? Well, not exactly. The reason I never liked WEB

@@ -1,11 +1,13 @@
 Title: Cloud Computing Basics 4
 Date: 2014-11-16 22:00
 Slug: cloud-computing-basics-4
+Author: Meka
+Tags: cloud, docker, service discovery, cloud basics
 
 
 So, you've seen how [Consul](https://consul.io/) and
 [Registrator](https://github.com/progrium/registrator) can be combined in
-[previous post](/2014/11/15/cloud-computing-basics-3). How about we get
+[previous post](/blog/2014/11/15/cloud-computing-basics-3/). How about we get
 down and dirty, finally? One way to start a docker container is to run it with
 [systemd](http://www.freedesktop.org/wiki/Software/systemd/). It's my favorite
 way, so let's take a look how does Consul service looks like:
@@ -82,5 +84,5 @@ that when DNS records change, as DNS is not cached, application server will hit
 new DB server the second it's in DNS. For some other neat tricks, check out
 [Consul documentation](http://www.consul.io/docs/index.html).
 
-[previous](/2014/11/15/cloud-computing-basics-3)
-[next](/2014/11/17/cloud-computing-basics-5)
+[previous](/blog/2014/11/15/cloud-computing-basics-3/)
+[next](/blog/2014/11/17/cloud-computing-basics-5/)

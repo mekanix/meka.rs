@@ -1,6 +1,6 @@
 Title: Presonus Troubles
 Date: 2015-05-23 22:00
-Slug: presonus-troubles
+Tags: music, daw
 
 
 For some time now, I have problems with Presonus AudioBox 1818VSL. The problem

@@ -1,6 +1,8 @@
 Title: CCC
 Date: 2014-12-29 22:00
 Slug: ccc
+Author: meka
+Tags: ccc, hacking
 
 
 Of course, I'm talking about [CCC](http://ccc.de). As there's a lot of talk

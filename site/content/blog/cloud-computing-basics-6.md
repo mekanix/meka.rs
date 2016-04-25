@@ -1,6 +1,8 @@
 Title: Cloud Computing Basics 6
 Date: 2014-11-20 22:00
 Slug: cloud-computing-basics-6
+Author: Meka
+Tags: cloud, docker, service discovery, cloud basics
 
 
 Docker here, Docker there, and no Docker build anywhere. That's not fair. How
@@ -61,5 +63,5 @@ I leave it up to you how to build your applications, these are just some ideas.
 Idealy, you can base your application on busybox environment, and use images as
 small as 5MB. If not, lurk around for your perfect solution.
 
-[previous](/2014/11/17/cloud-computing-basics-5)
-[next](/2014/11/21/cloud-computing-basics-7)
+[previous](/blog/2014/11/17/cloud-computing-basics-5/)
+[next](/blog/2014/11/21/cloud-computing-basics-7/)

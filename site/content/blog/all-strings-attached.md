@@ -1,8 +1,8 @@
 Title: All Strings Attached
 Date: 2015-06-06 22:00
 Slug: all-strings-attached
-Tags: quantum; physics
-Author: ahrimana
+Tags: quantum physics, physics
+Author: meka
 
 
 First of all, I'm no physicist. Everything written here is what I've gathered
