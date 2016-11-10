@@ -64,3 +64,12 @@ I really didn't care about the letters.
 
 The moral of the story: you better be system and network administrator and
 backend and frontend developer if you want to buy CCC ticket without the voucher.
+
+Update 1
+-----------
+No matter how you intend to pay for the ticket, select Bank transfer
+as selecting credit card will give you one more form to fill in. You'll get the
+email which, among other details, contains link to tiketing server's page with
+details about your ticket. Tomorrow, when all the DDoS is over, go to that link
+and choose "switch payment method" if you want to pay with credit card. This way
+you have one page less to display, which is infinity for a server under DDoS.
