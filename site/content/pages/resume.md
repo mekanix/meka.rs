@@ -1,4 +1,4 @@
-Title: Resume
+Title: Goran Mekić
 Date: 2015-06-06 22:00
 Slug: resume
 

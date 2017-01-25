@@ -51,4 +51,5 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MENUITEMS = (
     ('blog', '/blog'),
+    ('resume', '/pages/resume.html'),
 )
