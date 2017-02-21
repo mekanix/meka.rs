@@ -1,6 +1,6 @@
 Title: Sing, beastie, sing!
 Date: 2017-01-25 19:00
-Tags: freebsd, music, audio, real-time
+Tags: freebsd, real-time, music, audio
 Author: meka
 
 

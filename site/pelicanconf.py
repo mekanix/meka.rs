@@ -53,3 +53,9 @@ MENUITEMS = (
     ('blog', '/blog'),
     ('resume', '/pages/resume.html'),
 )
+STATIC_PATHS = [
+    'extra/favicon.ico'
+]
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
