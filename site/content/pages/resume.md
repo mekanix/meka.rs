@@ -57,15 +57,14 @@ as a full stack developer: [One Love](https://github.com/one-love)
     - React
     - Redux
     - WebPack
-    - InuitCSS
+    - MaterialUI
 - Backend
     - Flask
-    - Celery
+    - ZeroMQ
     - REST API
     - Ansible
 - Administration
     - MongoDB
-    - RabbitMQ
     - Debian
     - Vagrant
     - AWS
@@ -75,7 +74,7 @@ as a full stack developer: [One Love](https://github.com/one-love)
 
 ### Liberator
 
-###### Jan 2015 - NOW
+###### Jan 2015 - Jan 2016
 
 Project for creating a platform for writing, lectoring and publishing magazines,
 on which I'm contributing as system administrator, devops consultant and full
@@ -96,7 +95,7 @@ stack developer: [Liberator](https://github.com/libreoss)
 
 ### Photoslurp
 
-###### Dec 2015 - NOW
+###### Dec 2015 - Feb 2016
 
 Project for collecting, exchanging and requesting media rights for pictures and
 art: [Photoslurp](http://www.photoslurp.com/)
