@@ -1,8 +1,9 @@
-Title: Goran Mekić
+Title: Resume
 Date: 2015-06-06 22:00
 Slug: resume
 
-######Full Stack WEB Developer - from sys/net administration to frontend
+# Goran Mekić
+##### IT Business Consultant
 
 <hr/>
 
@@ -19,6 +20,10 @@ OpenBSD and OpenSolaris. In 2006. I became the Vice President of Linux User
 Group of Novi Sad (LUGoNS). As part of my dutties I organized a series of
 lectures, workshops and Install Day events, with emphasis on the use of free
 software (primarily GNU/Linux)
+
+Today I teach and research in Tilda Center on topics ranging from FreeBSD and
+GNU/Linux administration, security, kernel arthitecture, WEB development in
+backend and frontend to science, electronics, music and math.
 
 <hr/>
 
@@ -45,13 +50,31 @@ and fixing all non-SMP low voltage devices.
 
 ##Experience
 
-### One Love
+### [Drumgizmo](http://drumgizmo.org)
+
+###### Jan 2017 - NOW
+
+DrumGizmo is an open source, multichannel, multilayered, cross-platform drum
+plugin and stand-alone application. It enables you to compose drums in midi and
+mix them with a multichannel approach. It is comparable to that of mixing a real
+drumkit that has been recorded with a multimic setup.
+
+
+- DSP/C++
+    - FreeBSD OSS driver
+    - CLI support
+    - CPPUnit tests
+    - FreeBSD port/package maintainer
+
+<hr class="dashed-hr"/>
+
+### [One Love](https://github.com/one-love)
 
 ###### Jun 2014 - NOW
 
 Project of decentralized management of data centers, provision, deployment and
 development with emphasis on Docker and cloud technologies on which I'm working
-as a full stack developer: [One Love](https://github.com/one-love)
+as a full stack developer.
 
 - Frontend
     - React
@@ -72,13 +95,13 @@ as a full stack developer: [One Love](https://github.com/one-love)
 
 <hr class="dashed-hr"/>
 
-### Liberator
+### [Liberator](https://github.com/libreoss)
 
 ###### Jan 2015 - Jan 2016
 
 Project for creating a platform for writing, lectoring and publishing magazines,
 on which I'm contributing as system administrator, devops consultant and full
-stack developer: [Liberator](https://github.com/libreoss)
+stack developer.
 
 - Frontend
     - InuitCSS
@@ -93,12 +116,12 @@ stack developer: [Liberator](https://github.com/libreoss)
 
 <hr class="dashed-hr"/>
 
-### Photoslurp
+### [Photoslurp](http://www.photoslurp.com/)
 
 ###### Dec 2015 - Feb 2016
 
 Project for collecting, exchanging and requesting media rights for pictures and
-art: [Photoslurp](http://www.photoslurp.com/)
+art.
 
 - Frontend
     - Bootstrap
@@ -119,12 +142,11 @@ art: [Photoslurp](http://www.photoslurp.com/)
 
 <hr class="dashed-hr"/>
 
-### fSD
+### [fSD](https://fsd.rs)
 
 ###### Apr 2015 - May 2015
 
 Implementation of devops and automation best bractices for ERP system by
-[fSD](https://fsd.rs)
 
 - Ansible
 - Vagrant
@@ -135,12 +157,11 @@ Implementation of devops and automation best bractices for ERP system by
 
 <hr class="dashed-hr"/>
 
-### Reciprocity Labs
+### [Reciprocity Labs](http://reciprocitylabs.com)
 
 ###### Dec 2014 - May 2015
 
 Python developer and security adviser for
-[Reciprocity Labs](http://reciprocitylabs.com)
 
 - Python (Flask)
 - Vagrant/Ansible
@@ -150,7 +171,7 @@ Python developer and security adviser for
 
 <hr class="dashed-hr"/>
 
-### Lambda Solutions
+### [Lambda Solutions](http://www.lambdasolutions.net/)
 
 ###### Apr 2014 - Jun 2014
 
@@ -164,7 +185,7 @@ Hosting solutions for Moodle and Totara e-learning
 
 <hr class="dashed-hr"/>
 
-### Secent LLC
+### [Secent LLC](http://www.secent.com/)
 
 ###### Oct 2013 - NOW
 
@@ -195,7 +216,7 @@ packages for all inhouse projects
 
 <hr class="dashed-hr"/>
 
-### Saturized
+### [Saturized](http://www.saturized.com/)
 
 ###### Aug 2011 - Feb 2013
 
@@ -218,7 +239,7 @@ services, and set up user accounts. Also done work with
 
 <hr class="dashed-hr"/>
 
-###DDOR
+### [DDOR](http://www.ddor.rs/)
 
 ###### Aug 2006 - Aug 2011
 
@@ -237,7 +258,7 @@ preventative maintenance, monitoring and alerting setup. Also done with
 
 <hr class="dashed-hr"/>
 
-###Home Invest
+### [Home Invest](http://homeinvest.rs/)
 
 ###### May 2006 - Aug 2006
 
@@ -251,7 +272,7 @@ DHCP, DNS and Domain Controler
 
 <hr/>
 
-##Interests
+## Interests
 
 ### Founder of Tilda Center
 
@@ -262,7 +283,7 @@ Novi Sad, Serbia
 
 <hr class="dashed-hr"/>
 
-###Founder of Lust for Trust
+### Founding member of Lust for Trust
 
 ###### Oct 2007 - NOW
 
@@ -271,7 +292,7 @@ play guitar, write, compose, produce and record for
 
 <hr class="dashed-hr"/>
 
-###Vice-President of Linux User Group of Novi Sad (LUGoNS)
+### Vice-President of Linux User Group of Novi Sad (LUGoNS)
 
 ###### May 2006 - NOW
 
