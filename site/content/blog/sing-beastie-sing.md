@@ -20,6 +20,7 @@ a bit, so append this to your /etc/sysctl.conf:
 ```
 kern.timecounter.alloweddeviation=0
 hw.usb.uaudio.buffer_ms=2 # only on -STABLE for now
+hw.snd.latency=0
 kern.coredump=0
 ```
 
