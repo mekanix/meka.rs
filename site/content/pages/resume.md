@@ -42,7 +42,7 @@ Data Structures and Algorithms, E-business and Artificial Intelligence
 
 ######The electricity & electronics middle school "Mihajlo Pupin" Novi Sad
 
-Mihajlo Pupin Novi Sadtronics Middle School
+Mihajlo Pupin Novi Sad Eletronics Middle School
 Designing and building of electrical circuits, including simple digital boards
 and fixing all non-SMP low voltage devices.
 
