@@ -20,6 +20,7 @@ a bit, so append this to your /etc/sysctl.conf:
 ```
 kern.timecounter.alloweddeviation=0
 hw.usb.uaudio.buffer_ms=2 # only on -STABLE for now
+hw.snd.latency=0
 kern.coredump=0
 ```
 
@@ -28,13 +29,15 @@ aggregate (or wait for) before emitting them. The reason this is the default is
 because aggregating events saves power a bit, and currently more laptops are
 running FreeBSD than DAWs. Second one is the lowest possible buffer for USB
 audio driver. If you're not using USB audio, this won't change a thing. Third
+option is for defining default latency if program doesn't set one. Every program
+can change this value for it self, but most of them don't deal with this. Fourth
 one has nothing to do with real-time, but dealing with programs that consume
 ~3GB of RAM, dumping cores around made a problem on my machine. Besides, core
 dumps are only useful if you know how to debug the problem, or someone is
 willing to do that for you. I like to not generate those files by default, but
 if some app is constantly crashing, I enable dumps, run the app, crash it, and
 disable dumps again. I lost 30GB in under a minute by examining 10 different
-drumkits of DrumGizmo and all of them gave me 3GB of core file, each.
+drumkits of DrumGizmo and all of them gave me 3GB of core file.
 
 If you have audio interface with more than 8 channels, you'll need virtual_oss
 and virtual_oss_ctl. The decision was made that more than 8 channels of audio
@@ -50,7 +53,7 @@ default value of virtual_oss_flags.
 Next is my jack setup, which is oneliner:
 
 ```
-# jackd -r -d oss -r 96000 -C /dev/vdsp.jack -P /dev/vdsp.jack -i 18 -o 18
+# jackd -r -d oss -r 88200 -C /dev/vdsp.jack -P /dev/vdsp.jack -i 18 -o 18
 ```
 
 I'm not using real-time for jack, as it's not supported for a non-root process
@@ -76,7 +79,7 @@ And just for the reference, this is my virtual_oss config:
 
 ```
 virtual_oss_enable="YES"
-virtual_oss_flags="-S -i 8 -C 18 -c 18 -r 96000 -b 32 -s 384 -f /dev/dsp0 -c 2 -d dsp -c 18 -d vdsp.jack -t vdsp.ctl -M i,0,8,0,0,0 -M i,0,9,0,0,0"
+virtual_oss_flags="-S -i 8 -C 18 -c 18 -r 88200 -b 32 -s 384 -f /dev/dsp0 -c 2 -d dsp -c 18 -d vdsp.jack -t vdsp.ctl -M i,0,8,0,0,0 -M i,0,9,0,0,0"
 ```
 
 * -S: enable resampling
