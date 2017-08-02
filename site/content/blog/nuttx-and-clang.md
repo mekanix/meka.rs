@@ -39,7 +39,7 @@ some of their products. Even better, they use C++11, which is like a scripting
 language compared to "plain" C++ I used back in 2008. When I say "used" it's an
 overstatement. I think more apropriate phrase would be "I played with it". So, I
 made my goal to make NuttX compile with Clang, and I made it. You can check out
-[my fork] (https://github.com/mekanix/nuttx/tree/feature/clang) for now, until
+[my fork](https://github.com/mekanix/nuttx/tree/feature/clang) for now, until
 the patch makes it into the official repository. Although I used FreeBSD for
 development, I hope it's generic enough to be used on other OSes which Clang/LLVM
 supports. It still lacks LLVM libc++ support, and that's what we'll be working on
