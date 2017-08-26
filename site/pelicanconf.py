@@ -31,7 +31,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (
     ('github', 'https://github.com/mekanix'),
     ('twitter', 'https://twitter.com/meka_floss'),
-    ('user', 'https://www.upwork.com/o/profiles/users/_~01edbb172a83f0a9d9/'),
+    ('user', 'https://www.linkedin.com/in/goran-mekić-b1030120/'),
     ('envelope', 'mailto:meka@tilda.center'),
     ('rss', FEED_ALL_ATOM),
 )
