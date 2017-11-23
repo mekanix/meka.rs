@@ -1,6 +1,6 @@
-Title: FreeBSD Audio Workstation 0
+Title: Getting Started with Digital Audio
 Date: 2017-11-20 03:00
-Tags: freebsd, audio
+Tags: audio, electronic
 Author: meka
 
 
