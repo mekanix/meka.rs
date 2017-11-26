@@ -31,7 +31,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (
     ('github', 'https://github.com/mekanix'),
     ('twitter', 'https://twitter.com/meka_floss'),
-    ('user', 'https://www.linkedin.com/in/goran-mekić-b1030120/'),
+    ('linkedin', 'https://www.linkedin.com/in/goran-mekić-b1030120/'),
     ('envelope', 'mailto:meka@tilda.center'),
     ('rss', FEED_ALL_ATOM),
 )
@@ -52,10 +52,14 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MENUITEMS = (
     ('blog', '/blog'),
+    ('resume', '/pages/resume.html'),
 )
 STATIC_PATHS = [
-    'extra/favicon.ico'
+    'extra/favicon.ico',
+    'images',
 ]
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon.ico': {'path': 'favicon.ico'},
 }
+PROFILE_IMAGE = "avatar.png"
+BIO = "I am Goran Mekić, and I'm FreeBSD user and enthusiast, musician and hacker"
