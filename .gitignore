@@ -1,6 +1,3 @@
 *.pid
 *.pyc
-*.retry
-.vagrant/
-.ropeproject/
-site/output/
+output/
