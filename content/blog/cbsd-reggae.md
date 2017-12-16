@@ -6,11 +6,11 @@ Author: meka
 
 If you didn't get it by now, I'm huge CBSD fan. Actually, I'm CBSD developer
 now. :o) One of the things I play with is Reggae, and some people asked me to
-describe it and make a demo. So here goes an explanation why I created it, how
+describe it and make a demo. So here goes the explanation why I created it, how
 to use it and what are my plans for it in the future.
 
-As CBSD is used for almost everything in Reggae, I won't discuss jails much as
-they just work. So, besides jails, there are the topics I tried to cover with
+As CBSD is used for almost everything in Reggae, I won't discuss that part.
+So, besides jails, these are the topics I tried to cover with
 Reggae:
 
 * network and pf being static
@@ -42,7 +42,7 @@ nat on $ext_if from { ($jail_if:network), ($bridge_if:network) } to any -> ($ext
 
 So that's basically use case for the static network and how I tried to solve
 it. I'm sure there are better ways to do it, but I wanted to create proof of
-concept that we can comment.
+concept that we can discuss further.
 
 As for VMs you need DHCP server to make it easier to work with, `reggae init`
 will also setup two jails: dhcp and resolver. DHCP will lease IPs to VMs and
@@ -93,13 +93,13 @@ running make has on the host has and it adds one more target, so when you run
 needed, run `/usr/src/bin/init.sh` and `/usr/src/bin/devel.sh`, so by
 implementing those scripts you choose what happens on `make devel`.
 
-Some examples of repos using Reggae:
+Here are some example repos using Reggae:
 
 * [Tilda Center website](https://github.com/tilda-center/website) (development
   mode example)
 * [EMail service](https://github.com/mekanix/jail-mail) (Ansible example)
 
-What I'd like to have in the future is much of this work merged into CBSD on
+What I'd like to see in the future is much of this work merged into CBSD on
 one way or another. This is what makes my development experience nicer, and as
 such I'd like it to be less hackish at some parts. Sometimes, it's hackish
 because of a CBSD bug, sometimes because I can't think of a better solution at
