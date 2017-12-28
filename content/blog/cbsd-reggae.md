@@ -109,3 +109,15 @@ in every situation I can think of, hence making dev env as close to production
 as possible, some extra tools or CBSD features are needed and Reggae is one of
 them, at least for me. The parts that proove to be useful to other people will
 probably go into CBSD or some more official CBSD repository.
+
+This is how `reggae init` feels like:
+<script type="text/javascript" src="https://asciinema.org/a/NCYU9hyXtcwTq2aZhOlLMj9zk.js" id="asciicast-NCYU9hyXtcwTq2aZhOlLMj9zk" async></script>
+
+You can use it for development:
+<script src="https://asciinema.org/a/QQ3iVvJtacJ3oy4eHM7z7fGHc.js" id="asciicast-QQ3iVvJtacJ3oy4eHM7z7fGHc" async></script>
+
+Or you can use it for project like service grouping:
+<script src="https://asciinema.org/a/ep0fuYUY4cyMgRlhp0lgXvUZx.js" id="asciicast-ep0fuYUY4cyMgRlhp0lgXvUZx" async></script>
+
+Peek inside service:
+<script src="https://asciinema.org/a/rHSbFdSWFUmsb22tTHVJyhy4U.js" id="asciicast-rHSbFdSWFUmsb22tTHVJyhy4U" async></script>
