@@ -33,7 +33,7 @@ SOCIAL = (
     ('twitter', 'https://twitter.com/meka_floss'),
     ('linkedin', 'https://www.linkedin.com/in/goran-mekić-b1030120/'),
     ('envelope', 'mailto:meka@tilda.center'),
-    ('rss', FEED_ALL_ATOM),
+    ('rss', '/{}'.format(FEED_ALL_ATOM)),
 )
 
 DEFAULT_PAGINATION = 10
