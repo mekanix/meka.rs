@@ -50,6 +50,36 @@ and fixing all non-SMP low voltage devices.
 
 ##Experience
 
+### [Maolan](https://github.com/maolan)
+###### Jan 2018 - NOW
+
+Maolan is digital audio workstation that is buffer centric.
+
+- DSP/C++
+    - FreeBSD OSS driver
+    - CLI support
+    - FreeBSD port/package
+    - Low level optimization
+
+<hr class="dashed-hr"/>
+
+### [CBSD/Reggae/ClonOS](https://github.com/cbsd)
+
+###### Jun 2017 - NOW
+
+CBSD is virtualization manager on FreeBSD using jails, bhyve, virtualbox and
+xen.  It is capable of managing complex environments including network and ZFS
+datasets. Reggae is DevOps tool that uses CBSD for low level tasks, while
+ClonOS is FreeBSD distribution with WEB interface for CBSD.
+
+- Advanced shell scripting
+- Multi-node support
+- Parallel build of jails/vms using Reggae
+- Integration of security tools like MAC framework and RCTL
+- Large scale deployment
+
+<hr class="dashed-hr"/>
+
 ### [Drumgizmo](http://drumgizmo.org)
 
 ###### Jan 2017 - NOW
@@ -64,7 +94,7 @@ drumkit that has been recorded with a multimic setup.
     - FreeBSD OSS driver
     - CLI support
     - CPPUnit tests
-    - FreeBSD port/package maintainer
+    - FreeBSD port/package
 
 <hr class="dashed-hr"/>
 
