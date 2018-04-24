@@ -304,7 +304,7 @@ DHCP, DNS and Domain Controler
 
 ## Interests
 
-### Founder of Tilda Center
+### Co-Founder of Tilda Center
 
 ###### Apr 2015 - NOW
 
