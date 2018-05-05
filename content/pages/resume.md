@@ -187,7 +187,7 @@ Hosting solutions for Moodle and Totara e-learning
 
 ### [Secent LLC](http://www.secent.com/)
 
-###### Oct 2013 - NOW
+###### Oct 2013 - Oct 2014
 
 Advanced configurable reverse proxy and single sign on solution based on Django,
 Ansible and Apache for a world-dominant electrical company on which I was team
