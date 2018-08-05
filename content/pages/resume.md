@@ -125,6 +125,29 @@ as a full stack developer.
 
 <hr class="dashed-hr"/>
 
+### [Cala Health](https://www.calahealth.com)
+
+###### Jan 2018 - Aug 2018
+
+Cala Health is a medical technology company pioneering a new class of electrical
+medicine called neuroperipheral therapy.
+
+- Frontend
+    - React
+    - Redux
+    - Redux Saga
+    - MaterialUI
+    - WebPack
+- Backend
+    - Flask
+    - REST API
+    - Ansible
+    - CBSD/Reggae
+    - AWS Cognito
+    - AWS S3
+
+<hr class="dashed-hr"/>
+
 ### [Liberator](https://github.com/libreoss)
 
 ###### Jan 2015 - Jan 2016
@@ -318,13 +341,4 @@ Novi Sad, Serbia
 ###### Oct 2007 - NOW
 
 [Lust for Trust](https://www.facebook.com/lustfortrust) is a metal band I sing,
-play guitar, write, compose, produce and record for
-
-<hr class="dashed-hr"/>
-
-### Vice-President of Linux User Group of Novi Sad (LUGoNS)
-
-###### May 2006 - NOW
-
-Organizing events, maintaining infrastructure and researching and documenting
-new technologies and solutions used by [LUGoNS](https://lugons.org/)
+play guitar, write, compose, produce and record for.
