@@ -6,4 +6,3 @@ status: hidden
 
 - Co-founder of [Tilda Center](http://tilda.center) - Hackerspace in Novi Sad
 - Guitar player and singer of [Lust for Trust](https://www.facebook.com/lustfortrust)
-- Vice president of [LUGoNS](https://lugons.org)

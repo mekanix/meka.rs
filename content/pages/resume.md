@@ -21,7 +21,7 @@ Group of Novi Sad (LUGoNS). As part of my dutties I organized a series of
 lectures, workshops and Install Day events, with emphasis on the use of free
 software (primarily GNU/Linux)
 
-Today I teach and research in Tilda Center on topics ranging from FreeBSD and
+Today I teach and research in Tilda Center on topics ranging from HardenedBSD and
 GNU/Linux administration, security, kernel arthitecture, WEB development in
 backend and frontend to science, electronics, music and math.
 
@@ -50,6 +50,37 @@ and fixing all non-SMP low voltage devices.
 
 ##Experience
 
+### [Tilda Center](https://tilda.center)
+###### Apr 2015 - NOW
+
+Tilda Center is hackerspace/makerspace and educational center. I am the
+co-founder, researcher, lecturer and technical lead of development. As it's
+hard to get good education on modern technologies on one hand, and high price
+of education on the other, we offer all our lectures and teching material for
+free.
+
+- Teaching
+    - Python/Flask
+    - React/Redux
+    - HTML/CSS
+    - Electronics
+    - Guitar playing and audio recording/production
+- Administration
+    - CBSD/Reggae
+    - HardenedBSD and FreeBSD
+    - ZFS
+    - PF
+    - Ansible
+- Research
+    - NuttX using Clang (one board ported from GCC-only config)
+    - C++ in DSP/RT environemnt
+    - HardenedBSD and FreeBSD kernel development
+    - Music and 3D studio based on HardenedBSD (Ardour and Blender)
+    - HAST
+    - DTrace
+
+<hr class="dashed-hr"/>
+
 ### [Maolan](https://github.com/maolan)
 ###### Jan 2018 - NOW
 
@@ -67,10 +98,10 @@ Maolan is digital audio workstation that is buffer centric.
 
 ###### Jun 2017 - NOW
 
-CBSD is virtualization manager on FreeBSD using jails, bhyve, virtualbox and
-xen.  It is capable of managing complex environments including network and ZFS
-datasets. Reggae is DevOps tool that uses CBSD for low level tasks, while
-ClonOS is FreeBSD distribution with WEB interface for CBSD.
+CBSD is virtualization manager on HardenedBSD and FreeBSD using jails, bhyve,
+virtualbox and xen.  It is capable of managing complex environments including
+network and ZFS datasets. Reggae is DevOps tool that uses CBSD for low level
+tasks, while ClonOS is FreeBSD distribution with WEB interface for CBSD.
 
 - Advanced shell scripting
 - Multi-node support
