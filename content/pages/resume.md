@@ -67,7 +67,7 @@ free.
     - Guitar playing and audio recording/production
 - Administration
     - CBSD/Reggae
-    - HardenedBSD and FreeBSD
+    - HardenedBSD, FreeBSD and Linux
     - ZFS
     - PF
     - Ansible
