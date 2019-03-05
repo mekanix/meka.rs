@@ -81,6 +81,24 @@ free.
 
 <hr class="dashed-hr"/>
 
+### Firebird Networks Pulsar
+###### Sep 2018 - NOW
+
+Network gear config automation tool based on Ansible
+
+- Frontend
+    - React / MaterialUI
+    - Redux / Saga
+    - SocketIO
+    - WebPack
+- Backend
+    - FlaskRESTPlus
+    - Flask-SocketIO
+    - PeeWee
+    - Ansible
+
+<hr class="dashed-hr"/>
+
 ### [Maolan](https://github.com/maolan)
 ###### Jan 2018 - NOW
 
@@ -176,6 +194,20 @@ medicine called neuroperipheral therapy.
     - CBSD/Reggae
     - AWS Cognito
     - AWS S3
+
+<hr class="dashed-hr"/>
+
+### [GeoSolutions](https://www.geo-solutions.it)
+
+###### Jun 2017 - Sep 2017
+
+GeoSolutions provides innovative, robust and cost-effective solutions
+leveraging on best-of-breed Open Source products.
+
+- Custom monitoring solution for [GeoNode](http://geonode.org)
+    - Django
+    - React/Redux
+    - D3
 
 <hr class="dashed-hr"/>
 
