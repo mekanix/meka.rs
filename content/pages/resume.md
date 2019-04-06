@@ -81,24 +81,6 @@ free.
 
 <hr class="dashed-hr"/>
 
-### Firebird Networks Pulsar
-###### Sep 2018 - NOW
-
-Network gear config automation tool based on Ansible
-
-- Frontend
-    - React / MaterialUI
-    - Redux / Saga
-    - SocketIO
-    - WebPack
-- Backend
-    - FlaskRESTPlus
-    - Flask-SocketIO
-    - PeeWee
-    - Ansible
-
-<hr class="dashed-hr"/>
-
 ### [Maolan](https://github.com/maolan)
 ###### Jan 2018 - NOW
 
@@ -171,6 +153,24 @@ as a full stack developer.
     - Vagrant
     - AWS
     - Digital Ocean
+
+<hr class="dashed-hr"/>
+
+### Firebird Networks Pulsar
+###### Sep 2018 - Feb 2019
+
+Network gear config automation tool based on Ansible
+
+- Frontend
+    - React / MaterialUI
+    - Redux / Saga
+    - SocketIO
+    - WebPack
+- Backend
+    - FlaskRESTPlus
+    - Flask-SocketIO
+    - PeeWee
+    - Ansible
 
 <hr class="dashed-hr"/>
 
