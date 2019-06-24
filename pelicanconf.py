@@ -15,11 +15,11 @@ DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/categories/%s/atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/categories/{slug}/atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-TAG_FEED_ATOM = 'feeds/tags/%s/atom.xml'
+TAG_FEED_ATOM = 'feeds/tags/{slug}/atom.xml'
 
 # Social widget
 SOCIAL = (
@@ -60,4 +60,4 @@ EXTRA_PATH_METADATA = {
     },
 }
 PROFILE_IMAGE = "avatar.png"
-BIO = "I am Goran Mekić, and I'm Flask/React developer and HardenedBSD user, enthusiast, musician and hacker"
+BIO = "I am Goran Mekić, and I'm Flask/React developer and FreeBSD user, enthusiast, musician and hacker"
