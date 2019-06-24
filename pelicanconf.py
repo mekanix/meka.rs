@@ -21,14 +21,6 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 TAG_FEED_ATOM = 'feeds/tags/%s/atom.xml'
 
-# Blogroll
-LINKS = (
-    ('Pelican', 'http://getpelican.com/'),
-    ('Python.org', 'http://python.org/'),
-    ('Jinja2', 'http://jinja.pocoo.org/'),
-    ('You can modify those links in your config file', '#'),
-)
-
 # Social widget
 SOCIAL = (
     ('github', 'https://github.com/mekanix'),
@@ -56,6 +48,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MENUITEMS = (
     ('blog', '/blog'),
     ('resume', '/pages/resume.html'),
+    ('videos', '/pages/videos.html'),
 )
 STATIC_PATHS = [
     'extra/favicon.ico',
