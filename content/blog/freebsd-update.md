@@ -17,8 +17,13 @@ freebsd-version -ku
 bectl create 12.0.3
 freebsd-update install
 reboot
-pkg upgrade
 ```
+Check if [there's a known migration problem](https://svnweb.freebsd.org/ports/head/UPDATING?view=markup).
+```
+pkg upgrade
+reboot
+```
+**If you have jails, update them before last reboot**.
 
 `freebsd-update` utility will tell you if there is anything to be fetched. If
 there isn't, just ignore the rest of the commands, but if there is, you
