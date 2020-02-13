@@ -7,7 +7,7 @@ Slug: resume
 
 <hr/>
 
-##Personal Statement
+## Personal Statement
 
 Analytical, resourceful and problem-solving technical business analyst and IT
 professional with extensive experience in providing systems administration.
@@ -27,20 +27,20 @@ backend and frontend to science, electronics, music and math.
 
 <hr/>
 
-##Education
+## Education
 
-###Degree in computer science business IT
+### Degree in computer science business IT
 
-######Faculty of Sciences, University Of Novi Sad
+###### Faculty of Sciences, University Of Novi Sad
 
 Studying all aspect of IT including Computer Networks, Software Engineering,
 Data Structures and Algorithms, E-business and Artificial Intelligence
 
 <hr class="dashed-hr"/>
 
-###Technician of electronics
+### Technician of electronics
 
-######The electricity & electronics middle school "Mihajlo Pupin" Novi Sad
+###### The electricity & electronics middle school "Mihajlo Pupin" Novi Sad
 
 Mihajlo Pupin Novi Sad Eletronics Middle School
 Designing and building of electrical circuits, including simple digital boards
@@ -48,7 +48,7 @@ and fixing all non-SMP low voltage devices.
 
 <hr/>
 
-##Experience
+## Experience
 
 ### [Tilda Center](https://tilda.center)
 ###### Apr 2015 - NOW
