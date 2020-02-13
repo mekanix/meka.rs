@@ -27,6 +27,10 @@ DROPBOX_DIR=~/Dropbox/Public/
 
 GITHUB_PAGES_BRANCH=gh-pages
 
+STYLES_DIR=styles
+STYLE=chmduquesne
+RESUME=resume
+
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
@@ -36,6 +40,8 @@ RELATIVE ?= 0
 ifeq ($(RELATIVE), 1)
 	PELICANOPTS += --relative-urls
 endif
+
+all: html resume
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -63,6 +69,14 @@ help:
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+
+resume:
+	tail -n +5 $(INPUTDIR)/pages/$(RESUME).md | \
+	pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
+		--lua-filter=pdc-links-target-blank.lua \
+		--from markdown --to html \
+		--metadata pagetitle=$(RESUME) | \
+	wkhtmltopdf - $(OUTPUTDIR)/pages/$(RESUME).pdf
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)

@@ -48,7 +48,7 @@ and fixing all non-SMP low voltage devices.
 
 <hr/>
 
-## Experience
+## Projects
 
 ### [Tilda Center](https://tilda.center)
 ###### Apr 2015 - NOW
@@ -154,8 +154,9 @@ as a full stack developer.
     - AWS
     - Digital Ocean
 
-<hr class="dashed-hr"/>
+<hr/>
 
+## Work Experience
 ### Firebird Networks Pulsar
 ###### Sep 2018 - Feb 2019
 
