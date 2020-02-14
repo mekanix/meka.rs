@@ -34,7 +34,7 @@ be static as much as possible. I like the setup where jails are on lo1 and
 virtual machines on bridge1. In /etc/pf.conf that's
 
 
-```
+```sh
 jail_if = "lo1"
 bridge_if = "bridge1"
 nat on $ext_if from { ($jail_if:network), ($bridge_if:network) } to any -> ($ext_if)
@@ -62,7 +62,7 @@ Also, as Ansible expects python binary to be installed in /usr/bin, you have
 to tell Ansible where python is on FreeBSD machines. So this is how the
 inventory of one jail looks like:
 
-```
+```sh
 jail1 ansible_connection=jail ansible_python_interpreter='"/usr/bin/env python"'
 ```
 

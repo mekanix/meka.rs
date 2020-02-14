@@ -31,7 +31,7 @@ device in read only mode, but I needed read/write. Once I tried to alter it, I
 got `Permission denied`. Looking at /dev/umidi0.0 permissions, no wonder, because
 it's owner is root, group is operator and it's mod is 644. To make this right,
 add this rules to `/etc/devfs.rules` (create if it doesn't exist):
-```
+```sh
 [localrules=5]
 add path 'umidi*' mode 0666
 ```

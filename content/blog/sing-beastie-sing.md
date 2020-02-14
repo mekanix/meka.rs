@@ -17,7 +17,7 @@ not supported by distributions and breaks apps like VirtualBox). As default
 install of FreeBSD is concerned with real-time too much, we have to tweak sysctl
 a bit, so append this to your /etc/sysctl.conf:
 
-```
+```sh
 kern.timecounter.alloweddeviation=0
 hw.usb.uaudio.buffer_ms=2 # only on -STABLE for now
 hw.snd.latency=0
@@ -52,7 +52,7 @@ default value of virtual_oss_flags.
 
 Next is my jack setup, which is oneliner:
 
-```
+```sh
 # jackd -r -d oss -r 88200 -C /dev/vdsp.jack -P /dev/vdsp.jack -i 18 -o 18
 ```
 
@@ -65,19 +65,18 @@ Currently, Ardour 5.5 and DrumGizmo are in conflict.
 and added a quick patch for Ardour which removes the conflict. I talked to the
 maintainer of the port about it and he's working on a proper patch and will try
 to push it upstream, to Ardour developers.
-.
 
 As there are some resampling problems with virtual_oss, you're advised to use
 PulseAudio (not my favorite solution) by telling it to use virtual_oss. You'll
 have to add the following to the /usr/local/etc/pulse/default.pa:
 
-```
+```sh
 load-module module-oss device="/dev/vdsp.jack" sink_name=output source_name=input
 ```
 
 And just for the reference, this is my virtual_oss config:
 
-```
+```sh
 virtual_oss_enable="YES"
 virtual_oss_flags="-S -i 8 -C 18 -c 18 -r 88200 -b 32 -s 384 -f /dev/dsp0 -c 2 -d dsp -c 18 -d vdsp.jack -t vdsp.ctl -M i,0,8,0,0,0 -M i,0,9,0,0,0"
 ```

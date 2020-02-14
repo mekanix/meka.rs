@@ -16,7 +16,7 @@ to get it working on your FreeBSD box.
 I use -STABLE branch currently so system compiler is Clang 4.0. Beside that
 you'll need few extra packages.
 
-```
+```sh
 pkg install bossa arm-none-eabi-gcc
 ```
 
@@ -24,7 +24,7 @@ Bossa is used to upload the binary to Arduno and GNU linker for ARM is used as
 LLDB is not ready, yet (or I didn't find example how to use it with Arduino).
 Also, you'll need to add your user into dialer group.
 
-```
+```sh
 pw group mod dialer -m <user>
 ```
 
@@ -32,7 +32,7 @@ Let's say we have `blink.c` file with the code which blinks the onboard LED and
 `linker-script.ld` mentioned in the Hanno's post. Just for reference, this is
 how he compiles the binary:
 
-```
+```sh
 cc -nostdlib -ffreestanding -target arm-none-eabi -march=armv7-m -Tlinker-script.ld -Wl,--entry=start blink.c -o blink.elf
 arm-none-eabi-objcopy -O binary blink.elf blink.bin
 ```
@@ -43,13 +43,13 @@ The flashing part is a bit different on FreeBSD. First, you have to issue soft
 erase by connecting to serial port provided by Arduino using 1200 baud. You just
 have to connect, so nothing extra is needed.
 
-```
+```sh
 cu -l /dev/cuaU0 -s 1200
 ```
 
 Also, you'll have to tell Bossa utility which device file to use.
 
-```
+```sh
 bossac --write --verify -p /dev/cuaU0 --boot -R blink.bin
 ```
 

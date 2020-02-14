@@ -24,7 +24,7 @@ interface is wlan0. To create a bridge with STP (to be totally honest, FreeBSD
 defaults to RSTP or Rapid STP which is STP compatible) you'll add the following
 to /etc/rc.conf:
 
-```
+```sh
 # WiFi config
 wlans_ath0="wlan0"
 create_args_wlan0="wlanmode hostap mode 11gn"
@@ -41,7 +41,7 @@ ifconfig_bridge0_alias0="inet 192.168.5.1 netmask 255.255.255.0"
 That's it. You'll notice that we enabled hostapd, too. It is what provides WPA2
 on WiFi. It's config is:
 
-```
+```sh
 interface=wlan0
 debug=1
 ctrl_interface=/var/run/hostapd
@@ -61,7 +61,7 @@ no matter how you connect to it: Wifi or Ethernet.
 What you probably want is NAT enabled router. My prefered tool is PF. To enable
 PF and logger, add the following to /etc/rc.conf:
 
-```
+```sh
 pf_enable="YES"
 pflog_enable="YES"
 gateway_enable="YES"
@@ -69,7 +69,7 @@ gateway_enable="YES"
 
 The simplest rules for this use case are:
 
-```
+```sh
 ext_if = "re0"
 int_if = "bridge0"
 
@@ -97,7 +97,7 @@ lagg has master interface (in our case Ethernet one) and slaves. Master
 interface is the one that is added to the lagg the first. To aggregate WiFi and
 Ethernet on em0 interface, add the following to /etc/rc.conf:
 
-```
+```sh
 cloned_interfaces="lagg0"
 wlans_iwn0="wlan0"
 create_args_wlan0="country US regdomain FCC"

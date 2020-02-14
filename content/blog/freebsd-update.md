@@ -11,7 +11,7 @@ has base system as one big component which is updated as a whole, plus it has
 packages like any other Unix.
 
 TL;DR
-```
+```sh
 env PAGER=/bin/cat freebsd-update fetch
 freebsd-version -ku
 bectl create 12.0.3
@@ -19,7 +19,7 @@ freebsd-update install
 reboot
 ```
 Check if [there's a known migration problem](https://svnweb.freebsd.org/ports/head/UPDATING?view=markup).
-```
+```sh
 pkg upgrade
 reboot
 ```
@@ -42,7 +42,7 @@ and base system are loaded. As the final part, packages are updated.
 If you have a machine you can not reboot for any reason and have access through
 VNC, serial console or other non-network channels, you can run this:
 
-```
+```sh
 env PAGER=/bin/cat freebsd-update fetch
 freebsd-version -ku
 bectl create 12.0.3

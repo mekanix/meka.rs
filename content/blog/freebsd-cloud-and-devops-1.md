@@ -39,7 +39,7 @@ the only thing you have after install is FreeBSD base system on ZFS pool (by
 default, it's name is zroot), root user and a regular user. As root prepare the
 CBSD:
 
-```
+```sh
 # zfs create -o mountpoint=/cbsd zroot/cbsd
 # pkg install cbsd dnsmasq bind-tools tightvnc
 # env workdir="/cbsd" /usr/local/cbsd/sudoexec/initenv
@@ -57,7 +57,7 @@ few tips for the initialization, as it's interactive: don't enable NAT, use
 does great job at figuring out what PF rules it should insert/remove, I like all
 the rules in one place, /etc/pf.conf:
 
-```
+```sh
 ext_if = "re0"
 jail_if = "lo1"
 bridge_if = "bridge1"
@@ -77,7 +77,7 @@ pass inet proto { icmp, igmp }
 You can see lo1 and bridge1 interfaces, so they have to be configured. That's
 done in /etc/rc.conf:
 
-```
+```sh
 cloned_interfaces="bridge1 lo1"
 ifconfig_bridge1="description re0 172.16.0.1"
 ifconfig_lo1="up"
@@ -95,12 +95,12 @@ You have to enable PF, of course. I like to do it in /etc/rc.conf.d directory fo
 DevOps purposes I'll talk about later. There are two files for PF: pf and pflog.
 
 /etc/rc.conf.d/pf:
-```
+```sh
 pf_enable="YES"
 ```
 
 /etc/rc.conf.d/pflog:
-```
+```sh
 pflog_enable="YES"
 ```
 
@@ -110,14 +110,14 @@ would work. On large scale deployments you probably have BIND, already. To enabl
 DNSMasq, first make it start on boot.
 
 /etc/rc.conf.d/dnsmasq:
-```
+```sh
 dnsmasq_enable="YES"
 ```
 
 You need to edit the config in /usr/local/etc/dnsmasq.conf. These are the
 options I changed:
 
-```
+```sh
 domain=vm
 dhcp-range=172.16.0.50,172.16.0.250,12h
 interface=lo0
@@ -135,7 +135,7 @@ while allowing for on-the-fly VM info changing by including everything from
 For easier URLs, you can use DNSMasq as your DNS server through 127.0.0.1. To do
 that this is what you need to have in /etc/resolvconf.conf:
 
-```
+```sh
 name_servers=127.0.0.1
 dnsmasq_resolv=/usr/local/etc/dnsmasq.d/resolvconf
 ```
@@ -146,7 +146,7 @@ which will make DNSMasq re-read it.
 The last thing to do is configure BHyve. You'll need to load the modules and let
 CBSD take care of the rest, so add these lines to /boot/loader.conf:
 
-```
+```sh
 zfs_load="YES"
 vmm_load="YES"
 if_tap_load="YES"
@@ -160,7 +160,7 @@ is used to get the terminal output through a serial line and tmux.
 
 Reboot and you should be able to create new jails and virtual machines:
 
-```
+```sh
 # cbsd jconstruct-tui
 # cbsd jstart <jail>
 # cbsd jlogin <jail>

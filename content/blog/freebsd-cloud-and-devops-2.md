@@ -33,7 +33,7 @@ cbsd.conf with `cbsd jconstruct-tui`, like usual, just choose not to start it
 once you configure it and CBSD will save the config in temporary file you can
 use as a template. The fstab.conf is simple:
 
-```
+```sh
 /cbsd/jails-data/PROJECT-data/etc /etc nullfs rw 0 0
 /cbsd/jails-data/PROJECT-data/root /root nullfs rw 0 0
 /cbsd/jails-data/PROJECT-data/tmp /tmp nullfs rw 0 0

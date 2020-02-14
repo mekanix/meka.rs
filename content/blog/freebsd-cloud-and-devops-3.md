@@ -27,7 +27,7 @@ with: mail server. If you look at the mail as a project, it consists of few
 services like ldap, webmail, mail (dovecot + postfix) and so on. I have
 mail/Makefile which looks like this:
 
-```
+```Makefile
 REGGAE_PATH = /usr/local/share/reggae
 SERVICES = letsencrypt https://github.com/mekanix/jail-letsencrypt \
            ldap https://github.com/mekanix/jail-ldap \
@@ -44,7 +44,7 @@ DOMAIN=lust4trust.com
 Yes, that's the whole file! The core of the Reggae is SERVICES in project.mk, so
 let's see how it deals with it:
 
-```
+```Makefile
 up: fetch setup
 .if defined(service)
 	@echo "=== ${service} ==="
@@ -70,7 +70,7 @@ tuples" in Python. After a lot of experimenting, I realized that if I use
 jails (for nullfs mount, perheps?). As `SERVICES` is array, not array of pairs,
 you have to reverse the indexes, too: `url` and `service` in for loop.
 
-```
+```Makefile
 down: setup
 .if defined(service)
 	@${MAKE} ${MAKEFLAGS} -C services/${service} down
@@ -85,7 +85,7 @@ Service uses all the same Makefile tricks, so let me just show how I provision
 the jails. I implemented ansible.mk as an example, but Reggae is not Ansible
 centric. First thing is to mark the default target to run:
 
-```
+```Makefile
 .MAIN: up
 ```
 
@@ -94,7 +94,7 @@ just type `make`. This also solves the problem of adding targets wherever you
 like thus extending what can be done with your project. So let's look at how
 provisioning works.
 
-```
+```Makefile
 provision:
 	@touch .provisioned
 .if target(do_provision)
@@ -106,7 +106,7 @@ This is in `service.mk` in Reggae. If you defined `do_provision` or included
 ansible.mk from Reggae, provision will run it. As a matter of fact, this is how
 ldap service Makefile looks like:
 
-```
+```Makefile
 SERVICE = ldap
 REGGAE_PATH = /usr/local/share/reggae
 CUSTOM_TEMPLATES = templates
@@ -136,7 +136,7 @@ should be in .gitignore) or expect other files to be.
 The last piece is registering with Consul. So, this is how I configured my
 /etc/rc.conf.d/consul:
 
-```
+```sh
 consul_enable="YES"
 consul_args="-bind=127.0.2.1 -client=127.0.2.1 -recursor=8.8.8.8 -ui -server -bootstrap"
 ```

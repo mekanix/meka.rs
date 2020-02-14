@@ -10,7 +10,7 @@ procedure like in [FreeBSD update](/blog/freebsd-update), but ending up with a
 major or minor version number incresed, not patch version number.
 
 TL;DR
-```
+```sh
 env PAGER=/bin/cat freebsd-update upgrade -r 12.1-RELEASE
 freebsd-version -ku
 bectl create 12.0.11

@@ -7,13 +7,13 @@ Author: meka
 
 Upgrade in CBSD means the same as in FreeBSD: increse only in patch version.
 
-```
+```sh
 cbsd baseupdate
 service cbsd restart
 ```
 
 For upgrade you need to stop the jail, set it to new base and start the jail.
-```
+```sh
 cbsd jstop nginx
 cbsd jset jname=nginx ver=12.1
 cbsd jstart nginx
@@ -25,6 +25,6 @@ system files as new base. If you upgrade more then one jail, the first
 `jstart` will create base jail for the rest to use.
 
 Once you've upgraded all your jails, it's time to cleanup
-```
+```sh
 cbsd removebase ver=12.0
 ```
