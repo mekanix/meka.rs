@@ -51,7 +51,7 @@ and fixing all non-SMP low voltage devices.
 ## Projects
 
 ### [Tilda Center](https://tilda.center)
-###### Apr 2015 - NOW
+###### Apr 2015
 
 Tilda Center is hackerspace/makerspace and educational center. I am the
 co-founder, researcher, lecturer and technical lead of development. As it's
@@ -82,7 +82,7 @@ free.
 <hr class="dashed-hr"/>
 
 ### [Maolan](https://github.com/maolan)
-###### Jan 2018 - NOW
+###### Jan 2018
 
 Maolan is digital audio workstation that is buffer centric.
 
@@ -96,7 +96,7 @@ Maolan is digital audio workstation that is buffer centric.
 
 ### [CBSD/Reggae/ClonOS](https://github.com/cbsd)
 
-###### Jun 2017 - NOW
+###### Jun 2017
 
 CBSD is virtualization manager on HardenedBSD and FreeBSD using jails, bhyve,
 virtualbox and xen.  It is capable of managing complex environments including
@@ -113,7 +113,7 @@ tasks, while ClonOS is FreeBSD distribution with WEB interface for CBSD.
 
 ### [Drumgizmo](http://drumgizmo.org)
 
-###### Jan 2017 - NOW
+###### Jan 2017
 
 DrumGizmo is an open source, multichannel, multilayered, cross-platform drum
 plugin and stand-alone application. It enables you to compose drums in midi and
@@ -131,7 +131,7 @@ drumkit that has been recorded with a multimic setup.
 
 ### [One Love](https://github.com/one-love)
 
-###### Jun 2014 - NOW
+###### Jun 2014
 
 Project of decentralized management of data centers, provision, deployment and
 development with emphasis on Docker and cloud technologies on which I'm working
@@ -391,18 +391,34 @@ DHCP, DNS and Domain Controler
 
 ## Interests
 
+### Co-organizer of BSides Novi Sad
+
+###### May 2020
+
+[BSidesNoviSad](https://bsidesns.org) is the security conference in Novi Sad
+
+<hr class="dashed-hr"/>
+
+### Co-organizer of Python Serbia Conference
+
+###### Jun 2018
+
+[PySer](https://pyser.org) is the Python Serbia Conference
+
+<hr class="dashed-hr"/>
+
 ### Co-Founder of Tilda Center
 
-###### Apr 2015 - NOW
+###### Apr 2015
 
-[Tilda Center](http://tilda.center) is the hackerspace/makerspace located in
+[Tilda Center](https://tilda.center) is the hackerspace/makerspace located in
 Novi Sad, Serbia
 
 <hr class="dashed-hr"/>
 
 ### Founding member of Lust for Trust
 
-###### Oct 2007 - NOW
+###### Oct 2007
 
 [Lust for Trust](https://www.facebook.com/lustfortrust) is a metal band I sing,
 play guitar, write, compose, produce and record for.
