@@ -7,7 +7,9 @@ Slug: resume
 
 <hr/>
 
-## Personal Statement
+<a href="#personal-statement">
+  <h2 id="personal-statement">Personal Statement</h2>
+</a>
 
 Analytical, resourceful and problem-solving technical business analyst and IT
 professional with extensive experience in providing systems administration.
@@ -27,8 +29,11 @@ backend and frontend to science, electronics, music and math.
 
 <hr/>
 
-## Education
+<a href="#education">
+  <h2 id="education">Education</h2>
+</a>
 
+<div id="university"></div>
 ### Degree in computer science business IT
 
 ###### Faculty of Sciences, University Of Novi Sad
@@ -38,6 +43,7 @@ Data Structures and Algorithms, E-business and Artificial Intelligence
 
 <hr class="dashed-hr"/>
 
+<div id="high-scool"></div>
 ### Technician of electronics
 
 ###### The electricity & electronics middle school "Mihajlo Pupin" Novi Sad
@@ -48,8 +54,11 @@ and fixing all non-SMP low voltage devices.
 
 <hr/>
 
-## Projects
+<a href="#projects">
+  <h2 id="projects">Projects</h2>
+</a>
 
+<div id="tilda-center"></div>
 ### [Tilda Center](https://tilda.center)
 ###### Apr 2015
 
@@ -81,6 +90,7 @@ free.
 
 <hr class="dashed-hr"/>
 
+<div id="maolan"></div>
 ### [Maolan](https://github.com/maolan)
 ###### Jan 2018
 
@@ -94,6 +104,7 @@ Maolan is digital audio workstation that is buffer centric.
 
 <hr class="dashed-hr"/>
 
+<div id="cbsd"></div>
 ### [CBSD/Reggae/ClonOS](https://github.com/cbsd)
 
 ###### Jun 2017
@@ -111,6 +122,7 @@ tasks, while ClonOS is FreeBSD distribution with WEB interface for CBSD.
 
 <hr class="dashed-hr"/>
 
+<div id="drumgizmo"></div>
 ### [Drumgizmo](http://drumgizmo.org)
 
 ###### Jan 2017
@@ -129,6 +141,7 @@ drumkit that has been recorded with a multimic setup.
 
 <hr class="dashed-hr"/>
 
+<div id="one-love"></div>
 ### [One Love](https://github.com/one-love)
 
 ###### Jun 2014
@@ -156,7 +169,10 @@ as a full stack developer.
 
 <hr/>
 
-## Work Experience
+<a href="#work-experience">
+  <h2 id="work-experience">Work Experience</h2>
+</a>
+<div id="firebird-networks"></div>
 ### Firebird Networks Pulsar
 ###### Sep 2018 - Feb 2019
 
@@ -175,6 +191,7 @@ Network gear config automation tool based on Ansible
 
 <hr class="dashed-hr"/>
 
+<div id="cala-health"></div>
 ### [Cala Health](https://www.calahealth.com)
 
 ###### Jan 2018 - Aug 2018
@@ -198,6 +215,7 @@ medicine called neuroperipheral therapy.
 
 <hr class="dashed-hr"/>
 
+<div id="geosolutions"></div>
 ### [GeoSolutions](https://www.geo-solutions.it)
 
 ###### Jun 2017 - Sep 2017
@@ -212,6 +230,7 @@ leveraging on best-of-breed Open Source products.
 
 <hr class="dashed-hr"/>
 
+<div id="liberator"></div>
 ### [Liberator](https://github.com/libreoss)
 
 ###### Jan 2015 - Jan 2016
@@ -233,6 +252,7 @@ stack developer.
 
 <hr class="dashed-hr"/>
 
+<div id="photoslurp"></div>
 ### [Photoslurp](http://www.photoslurp.com/)
 
 ###### Dec 2015 - Feb 2016
@@ -259,6 +279,7 @@ art.
 
 <hr class="dashed-hr"/>
 
+<div id="fsd"></div>
 ### [fSD](https://fsd.rs)
 
 ###### Apr 2015 - May 2015
@@ -274,6 +295,7 @@ Implementation of devops and automation best bractices for ERP system by
 
 <hr class="dashed-hr"/>
 
+<div id="reciprocity-labs"></div>
 ### [Reciprocity Labs](http://reciprocitylabs.com)
 
 ###### Dec 2014 - May 2015
@@ -288,6 +310,7 @@ Python developer and security adviser for
 
 <hr class="dashed-hr"/>
 
+<div id="lambda-solutions"></div>
 ### [Lambda Solutions](http://www.lambdasolutions.net/)
 
 ###### Apr 2014 - Jun 2014
@@ -302,6 +325,7 @@ Hosting solutions for Moodle and Totara e-learning
 
 <hr class="dashed-hr"/>
 
+<div id="secent-llc"></div>
 ### [Secent LLC](http://www.secent.com/)
 
 ###### Oct 2013 - Oct 2014
@@ -333,6 +357,7 @@ packages for all inhouse projects
 
 <hr class="dashed-hr"/>
 
+<div id="saturized"></div>
 ### [Saturized](http://www.saturized.com/)
 
 ###### Aug 2011 - Feb 2013
@@ -356,6 +381,7 @@ services, and set up user accounts. Also done work with
 
 <hr class="dashed-hr"/>
 
+<div id="ddor"></div>
 ### [DDOR](http://www.ddor.rs/)
 
 ###### Aug 2006 - Aug 2011
@@ -375,6 +401,7 @@ preventative maintenance, monitoring and alerting setup. Also done with
 
 <hr class="dashed-hr"/>
 
+<div id="home-invest"></div>
 ### [Home Invest](http://homeinvest.rs/)
 
 ###### May 2006 - Aug 2006
@@ -391,6 +418,7 @@ DHCP, DNS and Domain Controler
 
 ## Interests
 
+<div id="bsides"></div>
 ### Co-organizer of BSides Novi Sad
 
 ###### May 2020
@@ -399,6 +427,7 @@ DHCP, DNS and Domain Controler
 
 <hr class="dashed-hr"/>
 
+<div id="pyser"></div>
 ### Co-organizer of Python Serbia Conference
 
 ###### Jun 2018
@@ -407,6 +436,7 @@ DHCP, DNS and Domain Controler
 
 <hr class="dashed-hr"/>
 
+<div id="cofounder-tilda-center"></div>
 ### Co-Founder of Tilda Center
 
 ###### Apr 2015
@@ -416,6 +446,7 @@ Novi Sad, Serbia
 
 <hr class="dashed-hr"/>
 
+<div id="lust4trust"></div>
 ### Founding member of Lust for Trust
 
 ###### Oct 2007
