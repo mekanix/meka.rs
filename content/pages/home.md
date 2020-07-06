@@ -8,3 +8,4 @@ status: hidden
 - Guitar player and singer of [Lust for Trust](https://www.facebook.com/lustfortrust)
 - Co-organizer of [Python Serbia Conference](https://pyser.org)
 - Co-organizer of [BSidesNoviSad](https://bsidesns.org)
+- Author of [Freenit Framework](https://github.org/freenit-framework/)
