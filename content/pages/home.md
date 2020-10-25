@@ -9,3 +9,5 @@ status: hidden
 - Co-organizer of [Python Serbia Conference](https://pyser.org)
 - Co-organizer of [BSidesNoviSad](https://bsidesns.org)
 - Author of [Freenit Framework](https://github.com/freenit-framework/)
+- Author of [CBSDng](https://github.com/cbsdng/)
+- Author of [Maolan](https://github.com/maolan/)
