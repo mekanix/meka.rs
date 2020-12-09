@@ -111,8 +111,7 @@ stopserver:
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish: all
-	rsync -crvl --delete-after --progress -e 'ssh -p 666' output/ meka.rs:/usr/cbsd/jails-data/nginx-data/usr/local/www/meka.rs
-	rsync -crvl --delete-after --progress -e 'ssh -p 2201' output/ meka.rs:/usr/cbsd/jails-data/nginx-data/usr/local/www/meka.rs
+	rsync -crvl --delete-after --progress output/ meka.rs:/usr/cbsd/jails-data/nginx-data/usr/local/www/meka.rs
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
