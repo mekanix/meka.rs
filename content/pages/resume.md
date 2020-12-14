@@ -4,6 +4,7 @@ Slug: resume
 
 # Goran Mekić
 ##### IT Business Consultant
+[meka@tilda.center](mailto:meka@tilda.center)
 
 <hr/>
 
