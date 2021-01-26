@@ -104,6 +104,27 @@ Maolan is digital audio workstation that is buffer centric.
 
 <hr class="dashed-hr"/>
 
+<div id="comms"></div>
+### [Communications Server](https://github.com/mekanix/comms)
+
+###### Jan 2018
+
+For most people, setting up mail, anti-spam, webmail, chat and DNS is huge
+hassle. This project is providing all of the mentioned services as a set of
+Ansible playbooks and CBSD jails.
+
+- Postfix
+- Dovecot / sieve
+- Rspamd
+- Ejabberd
+- RainLoops
+- Nginx
+- Letsencrypt
+- LDAP (in multimaster mode)
+- DNS setup
+
+<hr class="dashed-hr"/>
+
 <div id="cbsd"></div>
 ### [CBSD/Reggae/ClonOS](https://github.com/cbsd)
 
