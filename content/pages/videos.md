@@ -2,6 +2,11 @@ Title: Videos
 Date: 2019-06-24 18:31
 Slug: videos
 
+### Managing virtual resources with CBSD, and beyond
+<video controls width="100%">
+  <source src="https://video.fosdem.org/2021/D.bsd/cbsd_ecosystem.mp4" />
+</video>
+
 ### BSidesLjubljana 2019 - How Did We Teach (Ourselves) Security
 <video controls width="100%">
   <source src="https://archive.org/download/BSidesLjubljana2019/t1_08_How_Did_We_Teach_%28Ourselves%29_Security-Goran_Meki%C4%87.mp4" />
