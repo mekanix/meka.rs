@@ -21,7 +21,18 @@ gpart show
     4728832  495388672     4  freebsd-zfs  (236G)
   500117504        648        - free -  (324K)
 ```
+To see current UEFI settings like which disk/partition/file is configured for
+booting, run the following:
 
+```sh
+efibootmgr -v
+BootCurrent: 0019
+Timeout    : 0 seconds
+BootOrder  : 0019, 000A, 000C, 0006, 0007, 0008, 0009, 000B, 000D, 000E, 000F, 0010, 0011, 0012, 0013
++Boot0019* FreeBSD HD(1,GPT,0a7e1ccc-8826-11eb-b711-f0def164c22a,0x28,0x82000)/File(\efi\freebsd\loader.efi)
+                      ada0p1:/efi/freebsd/loader.efi (null)
+# A LOT OF LINES REMOVED
+```
 
 Write disk (pmbr) and second partition (gptzfsboot) boot codes. If you're using 
 UFS instead of ZFS, change gptzfsboot to gptboot.
@@ -29,5 +40,6 @@ UFS instead of ZFS, change gptzfsboot to gptboot.
 ```sh
 gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 2 ada0
 # if not mounted, mount efi partition under /boot/efi
+# in my case, that's adaop1, as efibootmgr reported
 cp /boot/loader.efi /boot/efi/efi/freebsd/loader.efi
 ```
