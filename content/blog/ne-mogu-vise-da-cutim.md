@@ -55,11 +55,11 @@ biti sa decom. Ljudi su pisali radove koje je ona kao zadnja kučka predavala
 kao svoje ne potpisavši nikog osim sebe. To je jedna glupa, licemerna, nadasve 
 bezobrazna i plitka osoba. Sada kada mi ne predaješ više ništa, Miro majku i 
 oca krvave ti jebem za ona obaranja "fali ti zarez". Želim ti da ti zafali deci 
-za lekove a tebi dugu i tešku bolest!
+na svakom koraku uz nečije debilno objašnjenje "zato što ja tako kažem".
 
-Drugi po redu je Đura Paunić. Kako je premator, valjda je sva sreća otegao 
-papke, pa njegovog linka na sajtu fakulteta nema, te ćete morati da mi 
-poverujete na reč ko je on. Zapravo ima 
+Drugi po redu je [Đura Paunić](https://people.dmi.uns.ac.rs/~djura/). Kako je 
+premator, valjda je odjebao više sa fakulteta pa ga nešto i nema po sajtu 
+previše. Zapravo ima 
 [nekih pomena](https://www.pmf.uns.ac.rs/wp-content/uploads/2017/03/MDS31-1.pdf)
 njegovih govana, kao što je knjiga prepuna grešaka koju nikad u svojoj karijeri
 nije ispravio ne bi li ljudi bili primorani da dolaze na predavanja da bi čuli
@@ -84,10 +84,11 @@ položim treći put, idem sa nožem na fakultet, stavljam ga Đuri pod grkljan i
 ako ne napiše ceo ispit za 3 sata, svinja će da bude preklana! Kako nisam u 
 zatvoru, očigledno je da sam iz treće položio taj ispit. Đura je govno koje ni 
 jednom studentu informatike neće nedostajati. Ako pak nađete takvog studenta, 
-znate da ste našli isto govno kao i on sam što je (bio, nadam se), jer ko još 
-može imati dobro mišljenje o profesoru koji ne zna da programira i predaje 
-najbitniji programerski predmet osim jebeni licemer i dupelizac.
+znate da ste našli isto govno kao i on sam što je, jer ko još može imati dobro 
+mišljenje o profesoru koji ne zna da programira i predaje najbitniji 
+programerski predmet osim jebeni licemer i dupelizac.
 
 Ovo su samo neki od profesora koji su mi zadavali noćne more godinama i da
 želim da se zna kakvi su. Danas da im ide auto u sustret da ih pogazi, skoro pa 
-sam siguran da bih ćutao!
+sam siguran da bih ćutao! Nikada ne bih ubio nekog, ali ne mogu da vidim 
+situaciju u kojoj bih ovima nešto pomogao ikada.
