@@ -7,7 +7,7 @@ Author: meka
 
 The title is cumbersome but the topic is quite ordinary life, to be honest. Idea
 is to have WiFi and Ethernet cards unified. On the router that means that
-weather you're getting your address over Wifi or Ethernet, you get the same
+whether you're getting your address over Wifi or Ethernet, you get the same
 range. On the client (usually laptop) we want to not be able to distinguish if
 we're on Wifi or Ethernet connection, but we do prefer Ethernet.
 
