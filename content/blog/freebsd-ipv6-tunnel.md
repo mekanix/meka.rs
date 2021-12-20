@@ -42,9 +42,13 @@ In /etc/rtadvd.conf:
 
 ```bash
 lan:\
-	:addrs#1:addr="fd12:c09a:85be:4851::":prefixlen#64:tc=ether:rltime#0\
-	:rdnss="fd12:c09a:85be:4851::3":\
-	:dnssl="meka.rs":
+  :addrs#1\
+  :addr="fd12:c09a:85be:4851::"\
+  :prefixlen#64\
+  :tc=ether\
+  :rltime#0\
+  :rdnss="fd12:c09a:85be:4851::3"\
+  :dnssl="meka.rs"
 ```
 
 In /etc/rc.conf.d/rtadvd:
