@@ -59,3 +59,13 @@ EXTRA_PATH_METADATA = {
 }
 PROFILE_IMAGE = "avatar.png"
 BIO = "I am Goran Mekić, and I'm Flask/React developer and FreeBSD user, enthusiast, musician and hacker"
+
+MARKDOWN = {
+    "extension_configs": {
+        "markdown.extensions.toc": {"title": "Table of contents:"},
+        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.extra": {},
+        "markdown.extensions.meta": {},
+    },
+    "output_format": "html5",
+}

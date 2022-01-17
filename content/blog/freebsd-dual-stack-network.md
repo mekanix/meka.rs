@@ -1,16 +1,19 @@
 Title: FreeBSD Dual Stack Network
 Date: 2022-01-15 22:55
-Slug: freebsd-router-server-laptop
 Tags: freebsd, network, ipv4, ipv6, tunnel
 Author: meka
 
+
+[TOC]
 
 Idea is to build dual stack network, which means working IPv4 and IPv6. Support
 on router and client side is needed for network to work without glitches. For
 example, switching from ethernet to WiFi should be seamless. On top, as my ISP
 is not providing IPv6, I'll show you how tunnels like Hurricane Electric work,
 which in layman terms means "how to have public IPv6 addresses on all my devices
-although ISP doesn't provide it".
+although ISP doesn't provide it". If you have native IPv6 support from your
+provider, that's great and just use it, otherwise you can use
+[Huricane Electric Tunnel Broker](https://tunnelbroker.net/) to setup IPv6.
 
 
 ## Router
@@ -52,7 +55,7 @@ one interface. There are few services on the router to make it work:
   * Protection from ssh brute force (blacklistd)
 
 /etc/rc.conf:
-```
+```ini
 # Network
 cloned_interfaces="bridge0 bridge1"
 ifconfig_re0="inet 192.168.100.254 netmask 255.255.255.0"
@@ -100,7 +103,7 @@ I won't repeat it in every configuration.
 To turn my WiFi into AP I use hostapd with the following configuration.
 
 /etc/hostapd.conf
-```
+```ini
 interface=wlan0
 debug=1
 ctrl_interface=/var/run/hostapd
@@ -176,6 +179,46 @@ attribute="value".
 lan:addr="2001:aaaa:bbbb:cccc::"
 ```
 
+In jail DHCP for IPv4 is running with the following configuration in
+/usr/local/etc/dhcpd.conf:
+
+```md
+server-identifier my.domain.tld;
+authoritative;
+log-facility local7;
+omapi-port 7911;
+
+
+subnet 172.16.0.0 netmask 255.255.255.0 {
+  option domain-name "my.domain.tld";
+  option domain-name-servers 172.16.0.254;
+  range 172.16.0.1 172.16.0.200;
+  option routers 172.16.0.254;
+  option broadcast-address 172.16.0.255;
+  default-lease-time 3600;
+  max-lease-time 7200;
+  on commit {
+    set clientIP = binary-to-ascii(10, 8, ".", leased-address);
+    set clientHost = pick-first-value(option fqdn.hostname, option host-name, "");
+    execute("/usr/local/bin/dhcpd-hook.sh", "add", clientIP, clientHost, "my.domain.tld");
+  }
+  on release {
+    set clientIP = binary-to-ascii(10, 8, ".", leased-address);
+    set clientHost = pick-first-value(option fqdn.hostname, option host-name, "");
+    execute("/usr/local/bin/dhcpd-hook.sh", "delete", clientIP, clientHost, "my.domain.tld");
+  }
+  on expiry {
+    set clientIP = binary-to-ascii(10, 8, ".", leased-address);
+    set clientHost = pick-first-value(option fqdn.hostname, option host-name, "");
+    execute("/usr/local/bin/dhcpd-hook.sh", "delete", clientIP, clientHost, "my.domain.tld");
+  }
+}
+```
+
+The configuration could be much smaller without hooks, but this way you have
+enough information how I register jails in DNS. This part will be detailed on
+[cbsd.io](cbsd.io).
+
 
 ## Laptop
 
@@ -190,7 +233,7 @@ that: no matter how I configure jails, they just can't get IPv6 when I'm using
 dhcpcd on the host. More on that in a later post.
 
 /etc/rc.conf:
-```md
+```ini
 # Network
 cloned_interfaces="lagg0"
 wlans_iwn0="wlan0"
@@ -210,9 +253,15 @@ ipv6_defaultrouter="2001:aaaa:bbbb:cccc::3"
 On server I like to set static IPv4 and IPv6 addresses.
 
 /etc/rc.conf:
-```md
+```ini
 ifconfig_igb0="inet 192.168.111.201 netmask 255.255.255.0"
 ifconfig_igb0_ipv6="inet6 2001:aaaa:bbbb:cccc::4 -ifdisabled auto_linklocal"
-ipv6_defaultrouter="2001:aaaa:bbbb:cccc::3"
+ipv6_defaultrouter="fe80::5a9c:fcff:fe10:6c2c%igb0"
 defaultrouter="192.168.111.254"
 ```
+
+Not that "%igb0" means something like "search for this link-local address on
+igb0 interface".
+
+
+[Next](/blog/2022/01/22/freebsd-dual-stack-jails/)
