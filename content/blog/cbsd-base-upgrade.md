@@ -17,6 +17,7 @@ For upgrade you need to stop the jail, set it to new base and start the jail.
 cbsd jstop nginx
 cbsd jset jname=nginx ver=12.1
 cbsd jstart nginx
+cbsd etcupdate jname=cbsd mode=update from=12.0 to=12.1 mode=diff
 ```
 
 CBSD will ask you how do you want new base files to be fetched, and default is
