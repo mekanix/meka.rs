@@ -51,7 +51,8 @@ Data Structures and Algorithms, E-business and Artificial Intelligence
 
 Mihajlo Pupin Novi Sad Eletronics Middle School
 Designing and building of electrical circuits, including simple digital boards
-and fixing all non-SMP low voltage devices.
+and fixing all non-SMP low voltage devices, scheme and PCB design, primarily
+for audio devices.
 
 <hr/>
 
@@ -77,7 +78,7 @@ free.
     - Guitar playing and audio recording/production
 - Administration
     - CBSD/Reggae
-    - HardenedBSD, FreeBSD and Linux
+    - FreeBSD and Linux
     - ZFS
     - PF
     - Ansible
@@ -194,6 +195,40 @@ as a full stack developer.
 <a href="#work-experience">
   <h2 id="work-experience">Work Experience</h2>
 </a>
+<div id="axcient"></div>
+### [Axcient](https://axcient.com)
+###### Jul 2022 - NOW
+
+Storage engineer
+
+- FreeBSD
+- ZFS
+- DTrace
+- Salt Stack
+
+<hr class="dashed-hr"/>
+
+<div id="fourity"></div>
+### [Fourity](https://fourity.com)
+###### Aug 2021 - Jul 2022
+
+Senior system architect
+
+- Frontend
+    - React / Vue / Svelte
+    - Redux / Saga / Vuex
+    - WebPack / Vite
+- Backend
+    - FastAPI / Freenit
+    - Node / GraphQL
+    - DynamoDB
+    - PostgreSQL
+- Administration
+    - FreeBSD
+    - CBSD/Reggae
+
+<hr class="dashed-hr"/>
+
 <div id="firebird-networks"></div>
 ### Firebird Networks Pulsar
 ###### Sep 2018 - Feb 2019
