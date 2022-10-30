@@ -25,7 +25,7 @@ On host, script is needed in PATH so it can be executed just like a normal
 application, so `/usr/bin/slack` looks like this:
 
 ```sh
-#!/bin/sh0
+#!/bin/sh
 
 get_pa_sock_path()
 {
