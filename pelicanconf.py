@@ -24,11 +24,11 @@ TAG_FEED_ATOM = "feeds/tags/{slug}/atom.xml"
 
 # Social widget
 SOCIAL = (
-    ("github", "https://github.com/mekanix"),
-    ("twitter", "https://twitter.com/meka_floss"),
-    ("linkedin", "https://www.linkedin.com/in/goran-mekić-b1030120/"),
-    ("envelope", "mailto:meka@tilda.center"),
-    ("rss", "/{}".format(FEED_ATOM)),
+    ("github", "brands", "https://github.com/mekanix"),
+    ("mastodon", "brands", "https://bsd.network/@meka"),
+    ("linkedin", "brands", "https://www.linkedin.com/in/goran-mekić-b1030120/"),
+    ("envelope", "", "mailto:meka@tilda.center"),
+    ("rss", "", "/{}".format(FEED_ATOM)),
 )
 
 DEFAULT_PAGINATION = 10
