@@ -205,6 +205,8 @@ Storage engineer
 - ZFS
 - DTrace
 - Salt Stack
+- Grafana
+- Prometheus
 
 <hr class="dashed-hr"/>
 

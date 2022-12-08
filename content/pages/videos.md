@@ -2,6 +2,9 @@ Title: Videos
 Date: 2019-06-24 18:31
 Slug: videos
 
+### EuroBSD 2022 - FreeBSD audio in amateur and professional setups
+<iframe height="350px" width="100%" src="https://www.youtube.com/embed/9xIGfs6Bqpo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Managing virtual resources with CBSD, and beyond
 <video controls width="100%">
   <source src="https://video.fosdem.org/2021/D.bsd/cbsd_ecosystem.mp4" />
@@ -28,7 +31,7 @@ Slug: videos
 </video>
 
 ### BalCCon 2016 - FLOSS Way of Funding a Hackerspace
-<iframe width="100%" src="https://www.youtube.com/embed/DHNnCXgD4RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="350px" width="100%" src="https://www.youtube.com/embed/DHNnCXgD4RU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### BalCCon 2015 - What is Hackerspace
-<iframe width="100%" src="https://www.youtube.com/embed/KpzQpAAwBvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="350px" width="100%" src="https://www.youtube.com/embed/KpzQpAAwBvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
