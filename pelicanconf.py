@@ -58,7 +58,7 @@ EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
 }
 PROFILE_IMAGE = "avatar.png"
-BIO = "I am Goran Mekić, and I'm Flask/React developer and FreeBSD user, enthusiast, musician and hacker"
+BIO = "I am Goran Mekić, and I'm Freenit developer, FreeBSD user/hacker and guitar player"
 
 MARKDOWN = {
     "extension_configs": {
