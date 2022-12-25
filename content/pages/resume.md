@@ -3,12 +3,12 @@ Date: 2015-06-06 22:00
 Slug: resume
 
 # Goran Mekić
-##### IT Business Consultant
+## IT Business Consultant
 [meka@tilda.center](mailto:meka@tilda.center)
 
 <hr/>
 
-<a href="#personal-statement">
+<a href="#personal-statement" aria-label="Personal statement">
   <h2 id="personal-statement">Personal Statement</h2>
 </a>
 
@@ -30,14 +30,14 @@ backend and frontend to science, electronics, music and math.
 
 <hr/>
 
-<a href="#education">
+<a href="#education" aria-label="Education">
   <h2 id="education">Education</h2>
 </a>
 
 <div id="university"></div>
 ### Degree in computer science business IT
 
-###### Faculty of Sciences, University Of Novi Sad
+#### Faculty of Sciences, University Of Novi Sad
 
 Studying all aspect of IT including Computer Networks, Software Engineering,
 Data Structures and Algorithms, E-business and Artificial Intelligence
@@ -47,7 +47,7 @@ Data Structures and Algorithms, E-business and Artificial Intelligence
 <div id="high-scool"></div>
 ### Technician of electronics
 
-###### The electricity & electronics middle school "Mihajlo Pupin" Novi Sad
+#### The electricity & electronics middle school "Mihajlo Pupin" Novi Sad
 
 Mihajlo Pupin Novi Sad Eletronics Middle School
 Designing and building of electrical circuits, including simple digital boards
@@ -56,13 +56,13 @@ for audio devices.
 
 <hr/>
 
-<a href="#projects">
+<a href="#projects" aria-label="Projects">
   <h2 id="projects">Projects</h2>
 </a>
 
 <div id="tilda-center"></div>
 ### [Tilda Center](https://tilda.center)
-###### Apr 2015
+#### Apr 2015
 
 Tilda Center is hackerspace/makerspace and educational center. I am the
 co-founder, researcher, lecturer and technical lead of development. As it's
@@ -94,7 +94,7 @@ free.
 
 <div id="maolan"></div>
 ### [Maolan](https://github.com/maolan)
-###### Jan 2018
+#### Jan 2018
 
 Maolan is digital audio workstation that is buffer centric.
 
@@ -109,7 +109,7 @@ Maolan is digital audio workstation that is buffer centric.
 <div id="comms"></div>
 ### [Communications Server](https://github.com/mekanix/comms)
 
-###### Jan 2018
+#### Jan 2018
 
 For most people, setting up mail, anti-spam, webmail, chat and DNS is huge
 hassle. This project is providing all of the mentioned services as a set of
@@ -130,7 +130,7 @@ Ansible playbooks and CBSD jails.
 <div id="cbsd"></div>
 ### [CBSD/Reggae/ClonOS](https://github.com/cbsd)
 
-###### Jun 2017
+#### Jun 2017
 
 CBSD is virtualization manager on HardenedBSD and FreeBSD using jails, bhyve,
 virtualbox and xen.  It is capable of managing complex environments including
@@ -148,7 +148,7 @@ tasks, while ClonOS is FreeBSD distribution with WEB interface for CBSD.
 <div id="drumgizmo"></div>
 ### [Drumgizmo](http://drumgizmo.org)
 
-###### Jan 2017
+#### Jan 2017
 
 DrumGizmo is an open source, multichannel, multilayered, cross-platform drum
 plugin and stand-alone application. It enables you to compose drums in midi and
@@ -167,7 +167,7 @@ drumkit that has been recorded with a multimic setup.
 <div id="one-love"></div>
 ### [One Love](https://github.com/one-love)
 
-###### Jun 2014
+#### Jun 2014
 
 Project of decentralized management of data centers, provision, deployment and
 development with emphasis on Docker and cloud technologies on which I'm working
@@ -192,12 +192,12 @@ as a full stack developer.
 
 <hr/>
 
-<a href="#work-experience">
+<a href="#work-experience" aria-label="Work experience">
   <h2 id="work-experience">Work Experience</h2>
 </a>
 <div id="axcient"></div>
 ### [Axcient](https://axcient.com)
-###### Jul 2022 - NOW
+#### Jul 2022 - NOW
 
 Storage engineer
 
@@ -212,7 +212,7 @@ Storage engineer
 
 <div id="fourity"></div>
 ### [Fourity](https://fourity.com)
-###### Aug 2021 - Jul 2022
+#### Aug 2021 - Jul 2022
 
 Senior system architect
 
@@ -233,7 +233,7 @@ Senior system architect
 
 <div id="firebird-networks"></div>
 ### Firebird Networks Pulsar
-###### Sep 2018 - Feb 2019
+#### Sep 2018 - Feb 2019
 
 Network gear config automation tool based on Ansible
 
@@ -253,7 +253,7 @@ Network gear config automation tool based on Ansible
 <div id="cala-health"></div>
 ### [Cala Health](https://www.calahealth.com)
 
-###### Jan 2018 - Aug 2018
+#### Jan 2018 - Aug 2018
 
 Cala Health is a medical technology company pioneering a new class of electrical
 medicine called neuroperipheral therapy.
@@ -277,7 +277,7 @@ medicine called neuroperipheral therapy.
 <div id="geosolutions"></div>
 ### [GeoSolutions](https://www.geo-solutions.it)
 
-###### Jun 2017 - Sep 2017
+#### Jun 2017 - Sep 2017
 
 GeoSolutions provides innovative, robust and cost-effective solutions
 leveraging on best-of-breed Open Source products.
@@ -292,7 +292,7 @@ leveraging on best-of-breed Open Source products.
 <div id="liberator"></div>
 ### [Liberator](https://github.com/libreoss)
 
-###### Jan 2015 - Jan 2016
+#### Jan 2015 - Jan 2016
 
 Project for creating a platform for writing, lectoring and publishing magazines,
 on which I'm contributing as system administrator, devops consultant and full
@@ -314,7 +314,7 @@ stack developer.
 <div id="photoslurp"></div>
 ### [Photoslurp](http://www.photoslurp.com/)
 
-###### Dec 2015 - Feb 2016
+#### Dec 2015 - Feb 2016
 
 Project for collecting, exchanging and requesting media rights for pictures and
 art.
@@ -341,7 +341,7 @@ art.
 <div id="fsd"></div>
 ### [fSD](https://fsd.rs)
 
-###### Apr 2015 - May 2015
+#### Apr 2015 - May 2015
 
 Implementation of devops and automation best bractices for ERP system by
 
@@ -357,7 +357,7 @@ Implementation of devops and automation best bractices for ERP system by
 <div id="reciprocity-labs"></div>
 ### [Reciprocity Labs](http://reciprocitylabs.com)
 
-###### Dec 2014 - May 2015
+#### Dec 2014 - May 2015
 
 Python developer and security adviser for
 
@@ -372,7 +372,7 @@ Python developer and security adviser for
 <div id="lambda-solutions"></div>
 ### [Lambda Solutions](http://www.lambdasolutions.net/)
 
-###### Apr 2014 - Jun 2014
+#### Apr 2014 - Jun 2014
 
 Hosting solutions for Moodle and Totara e-learning
 
@@ -387,7 +387,7 @@ Hosting solutions for Moodle and Totara e-learning
 <div id="secent-llc"></div>
 ### [Secent LLC](http://www.secent.com/)
 
-###### Oct 2013 - Oct 2014
+#### Oct 2013 - Oct 2014
 
 Advanced configurable reverse proxy and single sign on solution based on Django,
 Ansible and Apache for a world-dominant electrical company on which I was team
@@ -404,7 +404,7 @@ lead and senior developer
 
 <hr class="dashed-hr"/>
 
-###### Feb 2013 - Oct 2013
+#### Feb 2013 - Oct 2013
 
 Project for an aerospace company, including testing software and building
 packages for all inhouse projects
@@ -419,7 +419,7 @@ packages for all inhouse projects
 <div id="saturized"></div>
 ### [Saturized](http://www.saturized.com/)
 
-###### Aug 2011 - Feb 2013
+#### Aug 2011 - Feb 2013
 
 Responsible for capacity planning, including allocating storage, providing
 hardware and software redundancy, and planing future expansion requirements.
@@ -443,7 +443,7 @@ services, and set up user accounts. Also done work with
 <div id="ddor"></div>
 ### [DDOR](http://www.ddor.rs/)
 
-###### Aug 2006 - Aug 2011
+#### Aug 2006 - Aug 2011
 
 Expertise in Unix and Linux system installation, configuration, administration,
 the development and testing of backup and recovery methodologies,
@@ -463,7 +463,7 @@ preventative maintenance, monitoring and alerting setup. Also done with
 <div id="home-invest"></div>
 ### [Home Invest](http://homeinvest.rs/)
 
-###### May 2006 - Aug 2006
+#### May 2006 - Aug 2006
 
 Responsible for the implementation, administration and maintenance of Mail,
 DHCP, DNS and Domain Controler
@@ -480,7 +480,7 @@ DHCP, DNS and Domain Controler
 <div id="bsides"></div>
 ### Co-organizer of BSides Novi Sad
 
-###### May 2020
+#### May 2020
 
 [BSidesNoviSad](https://bsidesns.org) is the security conference in Novi Sad
 
@@ -489,7 +489,7 @@ DHCP, DNS and Domain Controler
 <div id="pyser"></div>
 ### Co-organizer of Python Serbia Conference
 
-###### Jun 2018
+#### Jun 2018
 
 [PySer](https://pyser.org) is the Python Serbia Conference
 
@@ -498,7 +498,7 @@ DHCP, DNS and Domain Controler
 <div id="cofounder-tilda-center"></div>
 ### Co-Founder of Tilda Center
 
-###### Apr 2015
+#### Apr 2015
 
 [Tilda Center](https://tilda.center) is the hackerspace/makerspace located in
 Novi Sad, Serbia
@@ -508,7 +508,7 @@ Novi Sad, Serbia
 <div id="lust4trust"></div>
 ### Founding member of Lust for Trust
 
-###### Oct 2007
+#### Oct 2007
 
 [Lust for Trust](https://www.facebook.com/lustfortrust) is a metal band I sing,
 play guitar, write, compose, produce and record for.
