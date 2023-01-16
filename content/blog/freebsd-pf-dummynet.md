@@ -43,3 +43,9 @@ One annoying thing is that there is no dnctl rc.d service, so you will probably
 write `dnctl` commands in something like `rc.local` or something. I do plan to
 create rc.d service for myself and when I learn more about dummynet, to publish
 it hoping it will become part of base so we can easily configure it.
+
+## Update
+The [dnctl service](https://reviews.freebsd.org/D37451) is now available. If
+enabled it reads /etc/dnctl.conf which has IPFW-like syntax and when only
+`dummynet` module is loaded, it will issue an error on non-dummynet IPFW
+statements.
