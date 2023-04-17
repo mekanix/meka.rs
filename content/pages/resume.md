@@ -477,15 +477,6 @@ DHCP, DNS and Domain Controler
 
 ## Interests
 
-<div id="bsides"></div>
-### Co-organizer of BSides Novi Sad
-
-#### May 2020
-
-[BSidesNoviSad](https://bsidesns.org) is the security conference in Novi Sad
-
-<hr class="dashed-hr"/>
-
 <div id="pyser"></div>
 ### Co-organizer of Python Serbia Conference
 
@@ -506,9 +497,9 @@ Novi Sad, Serbia
 <hr class="dashed-hr"/>
 
 <div id="lust4trust"></div>
-### Founding member of Lust for Trust
+### Founding member of Lust for Thrust
 
 #### Oct 2007
 
-[Lust for Trust](https://www.facebook.com/lustfortrust) is a metal band I sing,
+[Lust for Thrust](https://www.facebook.com/lustforthrust) is a metal band I
 play guitar, write, compose, produce and record for.

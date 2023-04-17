@@ -2,6 +2,9 @@ Title: Videos
 Date: 2019-06-24 18:31
 Slug: videos
 
+### DaFED #61 - Kako automatizacija procesa pomaže u razvoju sigurnijih aplikacija
+<iframe height="350px" width="100%" src="https://www.youtube.com/embed/XnJjMqa5fDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### FOSDEM 2023 - Reggae: cool way of managing jails/VMs on FreeBSD
 <video controls width="100%">
   <source src="https://video.fosdem.org/2023/AW1.120/reggae_jails_vms_on_freebsd.mp4" />
