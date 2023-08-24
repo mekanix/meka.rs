@@ -76,7 +76,7 @@ resume:
 		--lua-filter=pdc-links-target-blank.lua \
 		--from markdown --to html \
 		--metadata pagetitle=$(RESUME) | \
-	wkhtmltopdf - $(OUTPUTDIR)/pages/$(RESUME).pdf
+	weasyprint - $(OUTPUTDIR)/pages/$(RESUME).pdf
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)

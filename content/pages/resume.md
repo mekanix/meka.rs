@@ -501,5 +501,5 @@ Novi Sad, Serbia
 
 #### Oct 2007
 
-[Lust for Thrust](https://www.facebook.com/lustforthrust) is a metal band I
-play guitar, write, compose, produce and record for.
+[Lust for Thrust](https://lust4thrust.com) is a metal band I play guitar,
+write, compose, produce and record for.
