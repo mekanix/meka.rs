@@ -49,10 +49,9 @@ Data Structures and Algorithms, E-business and Artificial Intelligence
 
 #### The electricity & electronics middle school "Mihajlo Pupin" Novi Sad
 
-Mihajlo Pupin Novi Sad Eletronics Middle School
-Designing and building of electrical circuits, including simple digital boards
-and fixing all non-SMP low voltage devices, scheme and PCB design, primarily
-for audio devices.
+Mihajlo Pupin Novi Sad Eletronics Middle School Designing and building of
+electrical circuits, including simple digital boards and fixing all non-SMP low
+voltage devices, scheme and PCB design, primarily for audio devices.
 
 <hr/>
 
@@ -85,8 +84,8 @@ free.
 - Research
     - NuttX using Clang (one board ported from GCC-only config)
     - C++ in DSP/RT environemnt
-    - HardenedBSD and FreeBSD kernel development
-    - Music and 3D studio based on HardenedBSD (Ardour and Blender)
+    - FreeBSD kernel development
+    - Music and 3D studio based on FreeBSD (Ardour and Blender)
     - HAST
     - DTrace
 
@@ -96,7 +95,9 @@ free.
 ### [Maolan](https://github.com/maolan)
 #### Jan 2018
 
-Maolan is digital audio workstation that is buffer centric.
+Maolan is digital audio workstation composed of multiple libraries. Idea is to
+never need to recompile it to include support for a driver/backend. Something
+like gstreamer did, but for DAW. I am the lead developer and architect.
 
 - DSP/C++
     - FreeBSD OSS driver
@@ -113,7 +114,8 @@ Maolan is digital audio workstation that is buffer centric.
 
 For most people, setting up mail, anti-spam, webmail, chat and DNS is huge
 hassle. This project is providing all of the mentioned services as a set of
-Ansible playbooks and CBSD jails.
+Ansible playbooks and FreeBSD jails. I created Ansible playbooks and Reggae,
+the tool to make jail management easier.
 
 - Postfix
 - Dovecot / sieve
@@ -133,7 +135,7 @@ Ansible playbooks and CBSD jails.
 #### Jun 2017
 
 CBSD is virtualization manager on HardenedBSD and FreeBSD using jails, bhyve,
-virtualbox and xen.  It is capable of managing complex environments including
+virtualbox and xen. It is capable of managing complex environments including
 network and ZFS datasets. Reggae is DevOps tool that uses CBSD for low level
 tasks, while ClonOS is FreeBSD distribution with WEB interface for CBSD.
 
@@ -153,8 +155,8 @@ tasks, while ClonOS is FreeBSD distribution with WEB interface for CBSD.
 DrumGizmo is an open source, multichannel, multilayered, cross-platform drum
 plugin and stand-alone application. It enables you to compose drums in midi and
 mix them with a multichannel approach. It is comparable to that of mixing a real
-drumkit that has been recorded with a multimic setup.
-
+drumkit that has been recorded with a multimic setup. I contributed FreeBSD OSS
+driver backend for audio and MIDI and I'm FreeBSD port maintainer.
 
 - DSP/C++
     - FreeBSD OSS driver
@@ -199,7 +201,8 @@ as a full stack developer.
 ### [Axcient](https://axcient.com)
 #### Jul 2022 - NOW
 
-Storage engineer
+As storage engineer my tasks include debuging dead locks, analysing monitoring
+data to increase performance.
 
 - FreeBSD
 - ZFS
@@ -214,7 +217,8 @@ Storage engineer
 ### [Fourity](https://fourity.com)
 #### Aug 2021 - Jul 2022
 
-Senior system architect
+Senior system architect responsible for multiple projects, security and
+deployment.
 
 - Frontend
     - React / Vue / Svelte
@@ -235,7 +239,8 @@ Senior system architect
 ### Firebird Networks Pulsar
 #### Sep 2018 - Feb 2019
 
-Network gear config automation tool based on Ansible
+Network gear config automation tool based on Ansible. I achitectured and
+developed the whole application/service and made deployment easy.
 
 - Frontend
     - React / MaterialUI
@@ -256,7 +261,8 @@ Network gear config automation tool based on Ansible
 #### Jan 2018 - Aug 2018
 
 Cala Health is a medical technology company pioneering a new class of electrical
-medicine called neuroperipheral therapy.
+medicine called neuroperipheral therapy. I joined the team as senior Python and
+React developer to help with the architecture of the whole service.
 
 - Frontend
     - React
@@ -343,7 +349,7 @@ art.
 
 #### Apr 2015 - May 2015
 
-Implementation of devops and automation best bractices for ERP system by
+Implementation of devops and automation best bractices for ERP system.
 
 - Ansible
 - Vagrant
@@ -359,7 +365,7 @@ Implementation of devops and automation best bractices for ERP system by
 
 #### Dec 2014 - May 2015
 
-Python developer and security adviser for
+Python developer and security adviser.
 
 - Python (Flask)
 - Vagrant/Ansible
@@ -374,7 +380,8 @@ Python developer and security adviser for
 
 #### Apr 2014 - Jun 2014
 
-Hosting solutions for Moodle and Totara e-learning
+I was system administrator responsible for hosting solutions for Moodle and
+Totara e-learning.
 
 - Ansible
 - Vagrant
@@ -391,7 +398,7 @@ Hosting solutions for Moodle and Totara e-learning
 
 Advanced configurable reverse proxy and single sign on solution based on Django,
 Ansible and Apache for a world-dominant electrical company on which I was team
-lead and senior developer
+lead and senior developer.
 
 - Django
 - REST API
@@ -407,7 +414,7 @@ lead and senior developer
 #### Feb 2013 - Oct 2013
 
 Project for an aerospace company, including testing software and building
-packages for all inhouse projects
+packages for all in-house projects.
 
 - Jenkins
 - Redmine
@@ -445,10 +452,10 @@ services, and set up user accounts. Also done work with
 
 #### Aug 2006 - Aug 2011
 
-Expertise in Unix and Linux system installation, configuration, administration,
-the development and testing of backup and recovery methodologies,
-troubleshooting, capacity and performance planning, performance tuning,
-preventative maintenance, monitoring and alerting setup. Also done with
+Expertise in Solaris and Linux system installation, configuration,
+administration, the development and testing of backup and recovery
+methodologies, troubleshooting, capacity and performance planning, performance
+tuning, preventative maintenance, monitoring and alerting setup.
 
 - Solaris administration
 - Storage administration (EMC Clariion, Fujitsu Eternus DX440)
@@ -465,8 +472,8 @@ preventative maintenance, monitoring and alerting setup. Also done with
 
 #### May 2006 - Aug 2006
 
-Responsible for the implementation, administration and maintenance of Mail,
-DHCP, DNS and Domain Controler
+I was responsible for the implementation, administration and maintenance of
+Mail, DHCP, DNS and Domain Controler.
 
 - Samba
 - Postfix
