@@ -1,8 +1,7 @@
-Title: Goran Mekić
-Date: 2015-06-06 22:00
-URL:
-save_as: index.html
-status: hidden
++++
+title = 'Goran Mekić'
+date = 2015-06-06T22:00:00
++++
 
 - Co-founder of [Tilda Center](http://tilda.center) - Hackerspace in Novi Sad
 - Guitar player in [Lust 4 Thrust](https://lust4thrust.com)

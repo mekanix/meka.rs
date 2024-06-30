@@ -1,0 +1,67 @@
+baseURL = 'https://meka.rs/'
+languageCode = 'en-us'
+title = 'Goran Mekić'
+theme = 'm10c'
+
+[params]
+  author = 'Goran Mekić'
+  description = 'I am Goran Mekić, and I am Freenit developer, FreeBSD user/hacker and guitar player'
+  avatar = '/images/avatar.png'
+
+  [params.style]
+    darkestColor = "#242930"
+    darkColor = "#353b43"
+    lightColor = "#ffffff"
+    lightestColor = "#ffffff"
+    primaryColor = "#31ff8b"
+
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/mekanix"
+
+  [[params.social]]
+    icon = "mastodon"
+    name = "Mastodon"
+    url = "https://bsd.network/@meka"
+
+  [[params.social]]
+    icon = "mail"
+    name = "EMail"
+    url = "mailto:meka@tilda.center"
+
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/goran-meki%C4%87-b1030120/"
+
+  [[params.social]]
+    icon = "rss"
+    name = "RSS"
+    url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "content"
+    name = "Content"
+    url = "/tags/"
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+
+  [[menu.main]]
+    identifier = "videos"
+    name = "Videos"
+    url = "/videos/"
+
+[permalinks]
+  [permalinks.page]
+    posts = '/blog/:year/:month/:day/:slug/'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
