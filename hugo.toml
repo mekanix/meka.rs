@@ -6,7 +6,7 @@ theme = 'm10c'
 [params]
   author = 'Goran Mekić'
   description = 'I am Goran Mekić, and I am Freenit developer, FreeBSD user/hacker and guitar player'
-  avatar = '/images/avatar.png'
+  avatar = '/images/avatar.webp'
 
   [params.style]
     darkestColor = "#242930"
@@ -64,4 +64,3 @@ theme = 'm10c'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
