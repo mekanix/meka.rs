@@ -1,7 +1,9 @@
 +++
-title = 'Resume'
+title = ''
 date = 2015-06-06T22:00:00
 +++
+
+<a class="nopdf" href="../resume.pdf">PDF</a>
 
 # Goran Mekić
 ## IT Business Consultant
@@ -25,7 +27,7 @@ Group of Novi Sad (LUGoNS). As part of my dutties I organized a series of
 lectures, workshops and Install Day events, with emphasis on the use of free
 software (primarily GNU/Linux)
 
-Today I teach and research in Tilda Center on topics ranging from HardenedBSD and
+Today I teach and research in Tilda Center on topics ranging from FreeBSD and
 GNU/Linux administration, security, kernel arthitecture, WEB development in
 backend and frontend to science, electronics, music and math.
 

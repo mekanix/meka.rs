@@ -92,4 +92,8 @@ hr {
 table {
     width: 100%;
 }
+
+.nopdf {
+    display: none;
+}
 </style>
