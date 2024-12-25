@@ -6,7 +6,7 @@ tags = ['freebsd']
 
 
 Upgrade in FreeBSD world means having a host on version 12.0 and doing similar
-procedure like in [FreeBSD update](/blog/freebsd-update), but ending up with a
+procedure like in [FreeBSD update](/blog/2019/06/25/freebsd-update), but ending up with a
 major or minor version number incresed, not patch version number.
 
 TL;DR
