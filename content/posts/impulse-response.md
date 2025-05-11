@@ -81,3 +81,8 @@ For aligning the start of the clip I use `z` shortcut to find the zero crossing
 in the clip and I delete the samples before that one. That way no delay is
 introduced by impulse response. Save that project and export the .wav file.
 That file is your IR! Congratulations, you just made your first IR!
+
+### Related posts
+
+* [Impulse Response Sweep](/blog/2025/05/12/impulse-response-sweep/)
+* [Neural Amp Modeling](/blog/2025/04/15/neural-amp-modeling/)
