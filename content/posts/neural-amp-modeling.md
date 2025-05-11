@@ -111,3 +111,8 @@ talking to Tone3000 support, they told me that input signal should be uploaded
 only if custom signal is used to train the AI. I would love to not waste
 resources by uploading both files, but I always get an error while producing
 the NAM if I upload only the capture.
+
+### Related posts
+
+* [Impulse Response](/blog/2025/05/11/impulse-response/)
+* [Impulse Response Sweep](/blog/2025/05/12/impulse-response-sweep/)
