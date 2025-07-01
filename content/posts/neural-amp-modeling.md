@@ -112,6 +112,15 @@ only if custom signal is used to train the AI. I would love to not waste
 resources by uploading both files, but I always get an error while producing
 the NAM if I upload only the capture.
 
+
+## Update
+
+When creating Ardour session, be sure to select "Audio Time" not "Beat Time" for "Default
+time domain". That way capture and sweep will have exact same number of samples, and you
+can [just upload the capture](https://www.tone3000.com/capture). I didn't find a way to
+convert existing session from "Beat" to "Audio" time.
+
+
 ### Related posts
 
 * [Impulse Response](/blog/2025/05/11/impulse-response/)
