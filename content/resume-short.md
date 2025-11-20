@@ -42,6 +42,8 @@ for new challenges and continuous learning.
   <h2 id="projects">Projects</h2>
 </a>
 
+<div id="tilda-center"></div>
+
 ### [Tilda Center](https://tilda.center)
 #### Apr 2015
 
@@ -187,7 +189,7 @@ as a full stack developer.
 <div id="axcient"></div>
 
 ### [Axcient](https://axcient.com)
-#### Jul 2022 - NOW
+#### Jul 2022 - Jul 2025
 
 As storage engineer my tasks include debuging dead locks, analysing monitoring
 data to increase performance.

@@ -147,7 +147,7 @@ frontend and backend development.
 <div id="axcient"></div>
 
 ### [Axcient](https://axcient.com)
-#### Jul 2022 - NOW
+#### Jul 2022 - Jul 2025
 
 In my role at Axcient I am tasked with maintaining and optimizing storage
 systems used by enterprises to ensure high availability and performance across
