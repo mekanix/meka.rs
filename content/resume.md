@@ -4,6 +4,7 @@ date = 2015-06-06T22:00:00
 +++
 
 <a class="nopdf" href="../resume.pdf">PDF</a>
+<a class="nopdf" href="../resume-short/">Short</a>
 
 # Goran Mekić
 ### IT Business Consultant & Co-founder of Tilda Center

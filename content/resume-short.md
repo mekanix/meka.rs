@@ -4,6 +4,7 @@ date = 2015-06-06T22:00:00
 +++
 
 <a class="nopdf" href="../resume-short.pdf">PDF</a>
+<a class="nopdf" href="../resume/">Long</a>
 
 # Goran Mekić
 ### IT Business Consultant & Co-founder of Tilda Center
@@ -80,11 +81,11 @@ free.
 ### [Maolan](https://github.com/maolan)
 #### Jan 2018
 
-Maolan is digital audio workstation composed of multiple libraries. Idea is to
-never need to recompile it to include support for a driver/backend. Something
+Maolan is digital composable audio workstation . Idea is to never need
+to recompile it to include support for a driver/backend. Something
 like gstreamer did, but for DAW. I am the lead developer and architect.
 
-- DSP/C++
+- DSP/Rust
     - FreeBSD OSS driver
     - CLI support
     - FreeBSD port/package
