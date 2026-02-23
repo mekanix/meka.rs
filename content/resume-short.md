@@ -33,7 +33,7 @@ for new challenges and continuous learning.
 
 - Systems Administration & DevOps: FreeBSD, Linux, ZFS, PF, Ansible
 - Cloud & Virtualization: AWS, Docker, Virtualization (bhyve, Xen, VirtualBox)
-- Software Development: Python, FastAPI, Flask, React, Svelte, C++, DSP
+- Software Development: Rust, DSP, Python, FastAPI, Flask, React, Svelte, C++
 - Technical Leadership: Training, mentoring, project management
 - Research & Development: Kernel development, music production systems
 
@@ -68,7 +68,7 @@ free.
     - Ansible
 - Research
     - NuttX using Clang (one board ported from GCC-only config)
-    - C++ in DSP/RT environemnt
+    - Rust/C++ in DSP/RT environemnt
     - FreeBSD kernel development
     - Music and 3D studio based on FreeBSD (Ardour and Blender)
     - HAST
@@ -78,15 +78,15 @@ free.
 
 <div id="maolan"></div>
 
-### [Maolan](https://github.com/maolan)
+### [Maolan](https://github.com/maolan/maolan)
 #### Jan 2018
 
-Maolan is digital composable audio workstation . Idea is to never need
+Maolan is digital composable audio workstation. Idea is to never need
 to recompile it to include support for a driver/backend. Something
 like gstreamer did, but for DAW. I am the lead developer and architect.
 
 - DSP/Rust
-    - FreeBSD OSS driver
+    - FreeBSD/Linux audio and MIDI backend
     - CLI support
     - FreeBSD port/package
     - Low level optimization

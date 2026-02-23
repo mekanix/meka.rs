@@ -33,7 +33,7 @@ for new challenges and continuous learning.
 
 - Systems Administration & DevOps: FreeBSD, Linux, ZFS, PF, Ansible
 - Cloud & Virtualization: AWS, Docker, Virtualization (bhyve, Xen, VirtualBox)
-- Software Development: Python, FastAPI, Flask, React, Svelte, C++, DSP
+- Software Development: Rust, DSP, Python, FastAPI, Flask, React, Svelte, C++
 - Technical Leadership: Training, mentoring, project management
 - Research & Development: Kernel development, music production systems
 
@@ -57,7 +57,7 @@ responsible for leading technical research, teaching, and system administration.
   HTML/CSS, electronics, and audio production.
 - Managed IT infrastructure, including FreeBSD/Linux systems, ZFS, PF, and
   automation using Ansible.
-- Led research initiatives on FreeBSD kernel development, DSP/RT C++
+- Led research initiatives on FreeBSD kernel development, DSP/RT Rust/C++
   environments, and audio/music systems.
 - Designed and implemented internal systems for virtualized environments and
   efficient resource management using CBSD/Reggae.
@@ -73,7 +73,7 @@ architecture and implementation of the system.
 
 - Spearheaded the development of a flexible, extensible digital audio
   workstation using Rust.
-- Optimized backend performance for FreeBSD, including custom audio drivers and
+- Optimized backend performance for FreeBSD/Linux, including custom audio drivers and
   low-level optimization.
 - Coordinated the integration of real-time processing with multiple audio
   libraries and backends.
