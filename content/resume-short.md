@@ -78,7 +78,7 @@ free.
 
 <div id="maolan"></div>
 
-### [Maolan](https://github.com/maolan/maolan)
+### [Maolan](https://maolan.github.io)
 #### Jan 2018
 
 Maolan is digital composable audio workstation. Idea is to never need

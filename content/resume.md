@@ -64,7 +64,7 @@ responsible for leading technical research, teaching, and system administration.
 
 <div id="maolan"></div>
 
-### [Maolan](https://github.com/maolan)
+### [Maolan](https://maolan.github.io)
 #### Jan 2018
 
 Maolan is an advanced digital audio workstation project aimed at creating a
