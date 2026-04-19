@@ -33,7 +33,7 @@ theme = 'm10c'
   [[params.social]]
     icon = "linkedin"
     name = "LinkedIn"
-    url = "https://www.linkedin.com/in/goran-meki%C4%87-b1030120/"
+    url = "https://linkedin.com/in/goran-mekic"
 
   [[params.social]]
     icon = "rss"
