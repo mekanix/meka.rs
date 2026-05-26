@@ -79,110 +79,68 @@ systems to backend services and distributed orchestration.
 
 <hr/>
 
-<a href="#projects" aria-label="Projects">
-  <h2 id="projects">Projects</h2>
-</a>
-
-<div id="maolan"></div>
-
-### [Maolan](https://maolan.github.io) – Real-Time Audio Processing Platform (Rust) | 2018
-
-Designed and built a high-performance audio processing system focused on low-latency workloads.
-
-- Architected a modular audio processing engine in Rust with emphasis on performance and
-  extensibility
-- Implemented real-time processing pipelines with strict latency constraints
-- Optimized system behavior across Linux and FreeBSD environments
-- Integrated multiple audio backends and drivers for stable and efficient processing
-- Worked at OS and hardware interaction level to minimize processing overhead
-- Distributed Communications Infrastructure
-
-<div id="tilda-center"></div>
-
-### [Tilda Center](https://tilda.center) | 2015
-
-Tilda Center is a hackerspace and educational hub focused on modern
-technologies and open-source tools. I co-founded the center to bridge the gap
-between affordable, high-quality education and cutting-edge technology. I am
-responsible for leading technical research, teaching, and system administration.
-
-- Developed and delivered training in Python/Flask/FastAPI, React/Redux/Svelte,
-  HTML/CSS, electronics, and audio production.
-- Managed IT infrastructure, including FreeBSD/Linux systems, ZFS, PF, and
-  automation using Ansible.
-- Led research initiatives on FreeBSD kernel development, DSP/RT Rust/C++
-  environments, and audio/music systems.
-- Designed and implemented internal systems for virtualized environments and
-  efficient resource management using CBSD/Reggae.
-
-<div id="comms"></div>
-
-### [Communications Server](https://github.com/mekanix/comms) | 2018
-
-Designed and automated deployment of production-grade communication systems.
-
-- Built distributed systems for mail, DNS, chat, and directory services
-- Designed high-availability configurations with redundancy and failover mechanisms
-- Automated infrastructure using Ansible and FreeBSD jails
-- Improved reliability and operational efficiency through automation and system design
-
-<div id="cbsd"></div>
-
-### [CBSD/Reggae/ClonOS](https://github.com/cbsd) - Virtualization & Orchestration | 2017
-
-Worked on tooling for managing large-scale virtualized environments.
-
-- Developed orchestration tools for multi-node infrastructure
-- Implemented parallel build and deployment systems for jails and virtual machines
-- Optimized resource utilization and system performance in multi-tenant environments
-- Improved scalability and operational efficiency of virtualization workflows
-- Storage & System Optimization Work
-
-<div id="drumgizmo"></div>
-
-### [Drumgizmo](http://drumgizmo.org) | 2017
-
-DrumGizmo is an open-source, multichannel drum plugin and stand-alone
-application for music production.
-
-- Contributed to the FreeBSD OSS audio driver backend and ported the software
-  to FreeBSD.
-- Maintained FreeBSD ports for seamless integration with the system.
-
-<div id="one-love"></div>
-
-### [One Love](https://github.com/one-love) | 2014
-
-One Love is a decentralized management platform for data centers using Docker
-and cloud technologies. As a full-stack developer, I’ve contributed to both
-frontend and backend development.
-
-- Designed and developed the frontend using React, Redux, and Webpack to ensure
-  seamless user experience.
-- Developed backend services using Flask, ZeroMQ, and REST APIs for
-  high-performance, scalable communication.
-- Managed deployment pipelines on AWS, DigitalOcean, and other cloud platforms,
-  with a focus on automation and efficiency.
-
-<hr/>
-
 <a href="#work-experience" aria-label="Work experience">
   <h2 id="work-experience">Work Experience</h2>
 </a>
+
+<div id="sysit"></div>
+
+### [SysIT](https://sys.it.com/) | 2026
+
+Business Development & Technical Consultant
+
+- Advise organizations on aligning technology strategy with business objectives, with a focus on
+  scalable and efficient systems
+- Design and implement AI-driven solutions using tools such as Claude, ChatGPT, and Gemini to
+  automate workflows and improve decision-making
+- Architect, deploy, and manage containerized infrastructure using Kubernetes, ensuring
+  reliability, scalability, and cost efficiency
+- Develop and maintain infrastructure as code using Terraform to enable repeatable, secure,
+  and automated environments
+- Deliver high-performance systems development in Rust, including low-level and DSP-focused
+  applications
+- Perform kernel-level debugging and patching in FreeBSD environments to resolve complex system
+  issues
+- Analyze and optimize system and application performance using advanced tools such as DTrace
+- Support engineering teams in improving development processes, reducing technical debt, and
+  accelerating delivery cycles
+- Partner with stakeholders to identify inefficiencies and implement technical solutions that
+  streamline operations and improve product performance
+- Planning and implementation of C++/Rust libraries and systems
+
+<div id="bakson"></div>
+
+### [Bakson LTD](https://baksonltd.com/) | 2025
+
+Led the modernization of OSS deployment pipelines and infrastructure management through Terraform,
+Kubernetes, and proactive technical guidance.
+
+- Contributed to variety of OSS projects in different programming languages
+- Worked with a variety of teams to maintain high standards of quality across OSS projects
+- Collaborated with software developers, system administrators, and IT staff to streamline
+  development and deployment workflows
+- Set up and maintenance cloud infrastructure required to run specific OSS projects
+- Designed, implemented, and managed CI/CD pipelines for efficient software delivery
+- Mentored junior team members and provide technical guidance
+- Administered kubernetes cluster
+- Maintained terraform code
 
 <div id="axcient"></div>
 
 ### [Axcient](https://axcient.com) | 2022 – 2025
 
-Owned performance, reliability, and scalability of large-scale distributed storage systems operating across multiple data centers.
+Owned performance, reliability, and scalability of large-scale distributed storage systems
+operating across multiple data centers.
 
 - Drove system-level performance improvements across infrastructure managing 200+ PB of data
-- Investigated and resolved critical production issues involving distributed coordination, storage systems, and compute interactions
+- Investigated and resolved critical production issues involving distributed coordination,
+  storage systems, and compute interactions
 - Performed deep analysis of system behavior using tracing tools (DTrace) and monitoring systems
 - Built automation for managing infrastructure across hundreds of machines using SaltStack
 - Improved observability using Prometheus and Grafana, enabling faster diagnosis of production issues
 - Partnered with engineering teams to improve system architecture and operational reliability
 - Systems Architect / Backend Engineer
+- Maintained internal C/C++/Rust tools
 
 <div id="fourity"></div>
 
@@ -678,6 +636,93 @@ Key Responsibilities:
   system changes or staff turnover.
 
 Technologies Used: Linux, Postfix, Dovecot, DHCP, DNS (Bind), Samba, IPTables
+
+<hr/>
+
+<a href="#projects" aria-label="Projects">
+  <h2 id="projects">Projects</h2>
+</a>
+
+<div id="maolan"></div>
+
+### [Maolan](https://maolan.github.io) – Real-Time Audio Processing Platform (Rust) | 2018
+
+Designed and built a high-performance audio processing system focused on low-latency workloads.
+
+- Architected a modular audio processing engine in Rust with emphasis on performance and
+  extensibility
+- Implemented real-time processing pipelines with strict latency constraints
+- Optimized system behavior across Linux and FreeBSD environments
+- Integrated multiple audio backends and drivers for stable and efficient processing
+- Worked at OS and hardware interaction level to minimize processing overhead
+- Distributed Communications Infrastructure
+
+<div id="tilda-center"></div>
+
+### [Tilda Center](https://tilda.center) | 2015
+
+Tilda Center is a hackerspace and educational hub focused on modern
+technologies and open-source tools. I co-founded the center to bridge the gap
+between affordable, high-quality education and cutting-edge technology. I am
+responsible for leading technical research, teaching, and system administration.
+
+- Developed and delivered training in Python/Flask/FastAPI, React/Redux/Svelte,
+  HTML/CSS, electronics, and audio production.
+- Managed IT infrastructure, including FreeBSD/Linux systems, ZFS, PF, and
+  automation using Ansible.
+- Led research initiatives on FreeBSD kernel development, DSP/RT Rust/C++
+  environments, and audio/music systems.
+- Designed and implemented internal systems for virtualized environments and
+  efficient resource management using CBSD/Reggae.
+
+<div id="comms"></div>
+
+### [Communications Server](https://github.com/mekanix/comms) | 2018
+
+Designed and automated deployment of production-grade communication systems.
+
+- Built distributed systems for mail, DNS, chat, and directory services
+- Designed high-availability configurations with redundancy and failover mechanisms
+- Automated infrastructure using Ansible and FreeBSD jails
+- Improved reliability and operational efficiency through automation and system design
+
+<div id="cbsd"></div>
+
+### [CBSD/Reggae/ClonOS](https://github.com/cbsd) - Virtualization & Orchestration | 2017
+
+Worked on tooling for managing large-scale virtualized environments.
+
+- Developed orchestration tools for multi-node infrastructure
+- Implemented parallel build and deployment systems for jails and virtual machines
+- Optimized resource utilization and system performance in multi-tenant environments
+- Improved scalability and operational efficiency of virtualization workflows
+- Storage & System Optimization Work
+
+<div id="drumgizmo"></div>
+
+### [Drumgizmo](http://drumgizmo.org) | 2017
+
+DrumGizmo is an open-source, multichannel drum plugin and stand-alone
+application for music production.
+
+- Contributed to the FreeBSD OSS audio driver backend and ported the software
+  to FreeBSD.
+- Maintained FreeBSD ports for seamless integration with the system.
+
+<div id="one-love"></div>
+
+### [One Love](https://github.com/one-love) | 2014
+
+One Love is a decentralized management platform for data centers using Docker
+and cloud technologies. As a full-stack developer, I’ve contributed to both
+frontend and backend development.
+
+- Designed and developed the frontend using React, Redux, and Webpack to ensure
+  seamless user experience.
+- Developed backend services using Flask, ZeroMQ, and REST APIs for
+  high-performance, scalable communication.
+- Managed deployment pipelines on AWS, DigitalOcean, and other cloud platforms,
+  with a focus on automation and efficiency.
 
 <hr/>
 
