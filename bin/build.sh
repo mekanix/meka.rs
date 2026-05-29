@@ -6,7 +6,7 @@ OUTPUT_DIR="${PROJECT_DIR}/public"
 
 cd "${PROJECT_DIR}"
 rm -rf public
-hugo
+hugo --minify
 tail -n +6 "${PROJECT_DIR}/content/resume.md" | \
   pandoc --standalone --include-in-header "${PROJECT_DIR}/styles/resume.css" \
     --lua-filter=pdc-links-target-blank.lua \
