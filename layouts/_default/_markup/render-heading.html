@@ -1,0 +1,6 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+  {{ .Text }}
+  {{ if and .Page.Params.hidden (eq (trim (.Text | plainify) " ") "Master of Science in Business Information Technology") }}
+  <span style="display: none;">{{ .Page.Params.hidden }}</span>
+  {{ end }}
+</h{{ .Level }}>

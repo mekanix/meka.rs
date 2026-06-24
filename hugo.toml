@@ -5,7 +5,10 @@ theme = 'm10c'
 
 [params]
   author = 'Goran Mekić'
-  description = 'I am Goran Mekić, and I am Freenit developer, FreeBSD user/hacker and author of [Maolan DAW](https://maolan.rs)'
+  description = """
+  I am Goran Mekić, FreeBSD user/hacker and author of [Maolan](https://maolan.rs)
+  and [Freenit](https://freenit-framework.github.io)
+  """
   avatar = '/images/avatar.webp'
 
   [params.style]
