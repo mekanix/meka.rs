@@ -7,22 +7,7 @@
     {{ hugo.Generator }}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="{{ .Site.Params.author | default "John Doe" }}" />
-    <meta name="description" content="{{ if .Params.hidden }}{{ .Params.hidden }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Title }}{{ end }}" />
-    {{ with .Params.hidden }}
-    <meta name="hidden" content="{{ . }}" />
-    {{ end }}
-    {{ with .Params.hidden }}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": {{ $.Site.Params.author | jsonify | safeJS }},
-      "description": {{ . | jsonify | safeJS }},
-      "url": {{ $.Permalink | jsonify | safeJS }},
-      "image": {{ ($.Site.Params.avatar | default "avatar.jpg" | absURL) | jsonify | safeJS }}
-    }
-    </script>
-    {{ end }}
+    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Title }}{{ end }}" />
     {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | css.Sass | resources.Minify | resources.Fingerprint -}}
     <link defer rel="stylesheet" href="{{ $style.RelPermalink }}" />
     {{ with .OutputFormats.Get "rss" -}}
@@ -36,7 +21,7 @@
   </head>
   <body>
     <header class="app-header">
-      <a href="{{ .Site.BaseURL }}"><img fetchpriority="high" class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ if .Params.hidden }}{{ .Params.hidden }}{{ else }}{{ .Site.Params.author | default "John Doe" }}{{ end }}" /></a>
+      <a href="{{ .Site.BaseURL }}"><img fetchpriority="high" class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
       <span class="app-header-title">{{ .Site.Title }}</span>
       {{- with .Site.Menus.main }}
       <nav class="app-header-menu">
@@ -52,7 +37,9 @@
       {{- with .Site.Params.social }}
       <div class="app-header-social">
         {{ range . }}
-          <a href="{{ .url }}" target="_blank" rel="noreferrer noopener me" alt="{{ .name }}" aria-label="{{ .name }}">
+          {{ $href := .url }}
+          {{ if eq .icon "mail" }}{{ $href = printf "mailto:%s" $.Site.Params.email }}{{ end }}
+          <a href="{{ $href }}" target="_blank" rel="noreferrer noopener me" alt="{{ .name }}" aria-label="{{ .name }}">
             {{ partial "icon.html" (dict "ctx" $ "name" .icon "title" .name) }}
           </a>
         {{ end }}

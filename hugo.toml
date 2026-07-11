@@ -5,6 +5,7 @@ theme = 'm10c'
 
 [params]
   author = 'Goran Mekić'
+  email = 'meka@sys.it.com'
   description = """
   I am Goran Mekić, FreeBSD user/hacker and author of [Maolan](https://maolan.rs)
   and [Freenit](https://freenit-framework.github.io)
@@ -31,7 +32,7 @@ theme = 'm10c'
   [[params.social]]
     icon = "mail"
     name = "EMail"
-    url = "mailto:meka@tilda.center"
+    # href is built from params.email in the theme
 
   [[params.social]]
     icon = "linkedin"
