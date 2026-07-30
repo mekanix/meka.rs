@@ -35,6 +35,12 @@ h2 {
     /* This is called "sectioncolor" in the ConTeXt stylesheet. */
     color: #397249;
 }
+
+/* Start "Work Experience" on a new page in the PDF only */
+#work-experience {
+    page-break-before: always;
+    break-before: page;
+}
 /* There is a bar just before each category */
 h2:before {
     content: "";

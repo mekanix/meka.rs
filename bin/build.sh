@@ -17,7 +17,6 @@ build_resume() {
     pandoc --standalone \
       --include-in-header "${PROJECT_DIR}/styles/resume.css" \
       --include-before-body "${BODY_HEADER}" \
-      --lua-filter=pdc-links-target-blank.lua \
       --from markdown --to html \
       --metadata pagetitle="Goran Mekić" | \
     weasyprint --custom-metadata - "${OUTPUT}"
