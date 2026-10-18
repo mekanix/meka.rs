@@ -58,7 +58,7 @@ the long term.
 - Flask: `●●●●○`
 - Django: `●●●●○`
 - React: `●●●●○`
-- C / C++: `●●●○○`
+- C / C++: `●●●●○`
 - Go: `●●○○○`
 
 **Systems & Administration**
@@ -67,11 +67,11 @@ the long term.
 - Ansible/SaltStack/Puppet: `●●●●●`
 - FreeBSD / Unix internals: `●●●●●`
 - Docker / Jails: `●●●●●`
+- Kubernetes: `●●●●○`
+- Terraform: `●●●●○`
 - ZFS: `●●●●○`
 - Virtualization: `●●●●○`
 - AWS: `●●●●○`
-- Kubernetes: `●●●●○`
-- Terraform: `●●●●○`
 
 **Low-Latency & Distributed Systems**
 
@@ -195,7 +195,7 @@ Sole architect and developer of a network gear configuration automation tool.
 
 ### [GeoSolutions](https://www.geo-solutions.it) | 2017
 
-Developed a custom monitoring solution for GeoNode, an open-source geospatial data platform.
+Developed monitoring solution for GeoNode, an open-source geospatial data platform.
 
 - Designed and implemented a Django/Python monitoring system for GeoNode performance and user engagement
 - Built interactive data visualizations with React and D3.js
@@ -252,7 +252,7 @@ System Administrator for Moodle and Totara LMS hosting solutions.
 
 ### [Secent LLC](http://www.secent.com/) | 2013 - 2014
 
-Team Lead and Senior Developer for a reverse proxy and SSO solution at a major utility.
+Team Lead and Senior Developer for a reverse proxy and SSO solution.
 
 - Led development of a configurable reverse proxy and SSO solution using Django/Python
 - Integrated SimpleSAMLphp and built custom RESTful APIs for secure, high-volume authentication
@@ -304,7 +304,7 @@ Implemented and maintained core network services for the organization.
 
 <div id="maolan"></div>
 
-### [Maolan](https://maolan.github.io) - Real-Time Audio Processing Platform (Rust) | 2018
+### [Maolan](https://maolan.rs) - Real-Time Audio Processing Platform (Rust / C++) | 2018
 
 Designed and built a high-performance audio processing system focused on low-latency workloads.
 
@@ -314,7 +314,6 @@ Designed and built a high-performance audio processing system focused on low-lat
 - Optimized system behavior across Linux environments through deep OS-level tuning
 - Integrated multiple audio backends and drivers for stable and efficient processing
 - Worked at OS and hardware interaction level to minimize processing overhead
-- Distributed Communications Infrastructure
 
 <div id="freenit"></div>
 
