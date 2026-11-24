@@ -6,7 +6,7 @@ date = 2015-06-06T22:00:00
 <a class="nopdf" href="../resume.pdf">PDF</a>
 
 # Goran Mekić
-### Senior Backend Systems Engineer | DevOps Senior Engineer | Low-Latency & Distributed Systems | Rust, C++, Python
+### Senior Systems Engineer | Rust, C/C++, Python | Secure, Modular Systems | Linux/Unix Internals
 
 <div class="pdfonly">
 <p><a href="{{< site >}}">meka.rs</a> · <a href="mailto:{{< email >}}">{{< email >}}</a></p>
@@ -16,76 +16,55 @@ date = 2015-06-06T22:00:00
   <h2 id="personal-statement">Personal Statement</h2>
 </a>
 
-Senior backend systems engineer with 15+ years designing, optimizing, and operating
-high-performance distributed systems in production environments. Most recently owned
-performance and reliability for infrastructure managing **250+ PB of data** at Axcient
-across multiple data centers.
+Senior systems engineer with 15+ years designing, building, and operating secure,
+performance-critical backend and distributed systems. Experienced in Rust, C/C++, and Python,
+with deep Linux and FreeBSD expertise spanning kernel debugging, DTrace, performance analysis,
+storage internals, and network stack tuning. Most recently owned performance and reliability for
+infrastructure managing **250+ PB of data** across multiple data centers at Axcient.
 
-Specializes in low-latency Rust and C++ systems, Linux production environments, and
-DevOps automation (Kubernetes, Terraform, AWS). Brings deep systems expertise -
-including kernel-level debugging, tracing, and storage internals - to bear on
-commercial backend and infrastructure challenges.
+Takes a first-principles approach to modular processing and workflow systems, moving from
+architecture to production implementation, debugging, observability, and automation. Track record
+of delivering production services and internal tooling, building CI/CD pipelines, and collaborating
+with engineering, research, and security teams. Security experience includes reverse proxies, SAML
+SSO, access controls, SSL/TLS, system and network hardening, monitoring, and incident response.
 
-Particularly passionate about Rust as a language for building fast, reliable, and
-predictable systems, and about applying that systems thinking to audio AI - combining
-real-time signal processing, machine learning pipelines, and careful hardware/OS-level
-tuning to create expressive and performant audio tools. This passion drives ongoing work
-at the intersection of low-latency audio, DSP, intelligent signal processing, and artificial
-intelligence.
-
-Strong believer in DevOps as a practice, not just a set of tools. Over the years I have
-automated provisioning, deployment, and operational workflows across bare-metal, virtualized,
-and cloud environments using Ansible, SaltStack, Terraform, Kubernetes, Docker, Jail, and CI/CD
-pipelines. I treat infrastructure as code, observability as a first-class concern, and
-reliable repeatable deployments as essential to keeping complex systems healthy at scale.
-Deeply versed in both FreeBSD and Linux as daily drivers for production infrastructure - from
-kernel-level debugging, tracing with DTrace, and jail/zone isolation to storage design with ZFS,
-network stack tuning, and building secure, stable server environments that stay maintainable over
-the long term.
+Focused on applying this systems foundation to production threat-detection engines and detection
+pipelines across enterprise and emerging compute environments. Brings learning agility, close-to-the-OS
+problem solving, and a strong emphasis on reliable, maintainable, testable code.
 
 <a href="#skills" aria-label="Skills">
   <h2 id="skills">Skills</h2>
 </a>
 
-**Languages & Runtimes**
+**Systems Programming & Architecture**
 
 - Rust: `●●●●●`
-- Python: `●●●●●`
-- JavaScript / TypeScript: `●●●●●`
-- FastAPI: `●●●●●`
-- REST APIs: `●●●●●`
-- Svelte: `●●●●●`
-- Flask: `●●●●○`
-- Django: `●●●●○`
-- React: `●●●●○`
 - C / C++: `●●●●○`
-- Go: `●●○○○`
-
-**Systems & Administration**
-
-- Linux administration: `●●●●●`
-- Ansible/SaltStack/Puppet: `●●●●●`
-- FreeBSD / Unix internals: `●●●●●`
-- Docker / Jails: `●●●●●`
-- Kubernetes: `●●●●○`
-- Terraform: `●●●●○`
-- ZFS: `●●●●○`
-- Virtualization: `●●●●○`
-- AWS: `●●●●○`
-
-**Low-Latency & Distributed Systems**
-
-- Distributed storage: `●●●●●`
-- Real-time processing: `●●●●●`
-- Systems optimization: `●●●●●`
+- Python: `●●●●●`
+- Modular backend architecture: `●●●●●`
+- Real-time processing pipelines: `●●●●●`
+- Distributed systems & storage: `●●●●●`
 - High-throughput backends: `●●●●○`
+- REST APIs & workflow orchestration: `●●●●○`
 
-**Observability & Debugging**
+**Operating Systems & Debugging**
 
+- Linux administration & internals: `●●●●●`
+- FreeBSD / Unix internals: `●●●●●`
+- Kernel debugging & DTrace: `●●●●●`
+- Performance analysis & optimization: `●●●●●`
 - Production incident response: `●●●●●`
-- DTrace: `●●●●●`
-- Prometheus: `●●●●○`
-- Grafana: `●●●●○`
+- ZFS & storage internals: `●●●●○`
+
+**Security & Production Engineering**
+
+- System & network hardening: `●●●●●`
+- Authentication, SSO & access control: `●●●●●`
+- CI/CD, testing & release automation: `●●●●○`
+- Prometheus / Grafana observability: `●●●●○`
+- Kubernetes / Docker / Jails: `●●●●○`
+- Terraform / Ansible / SaltStack: `●●●●●`
+- AWS: `●●●●○`
 
 <hr class="nopdf"/>
 
@@ -97,26 +76,31 @@ the long term.
 
 ### [SysIT](https://sys.it.com/) | 2026
 
-Business Development & Technical Consultant
+**Business Development & Technical Consultant**
 
-- Advise organizations on aligning technology strategy with business objectives, with a focus on
-  scalable and efficient systems
-- Design and implement AI-driven solutions using tools such as Claude, ChatGPT, and Gemini to
-  automate workflows and improve decision-making
-- Architect, deploy, and manage containerized infrastructure using Kubernetes, ensuring
-  reliability, scalability, and cost efficiency
-- Develop and maintain infrastructure as code using Terraform to enable repeatable, secure,
-  and automated environments
-- Deliver high-performance systems development in Rust, including low-level and DSP-focused
-  applications
-- Perform kernel-level debugging and patching in FreeBSD environments to resolve complex system
-  issues
-- Analyze and optimize system and application performance using advanced tools such as DTrace
-- Support engineering teams in improving development processes, reducing technical debt, and
-  accelerating delivery cycles
-- Partner with stakeholders to identify inefficiencies and implement technical solutions that
-  streamline operations and improve product performance
-- Planning and implementation of C++/Rust libraries and systems
+- Design and implement modular C++ and Rust libraries and systems for performance-critical and
+  real-time applications
+- Develop AI-assisted workflow automation and backend tooling to streamline technical operations
+- Perform kernel-level debugging and patching in FreeBSD to resolve complex production issues
+- Analyze and optimize system and application behavior using DTrace and OS-level performance data
+- Architect containerized infrastructure with Kubernetes and infrastructure as code with Terraform
+- Advise engineering teams on system architecture, development processes, reliability, and technical debt
+- Partner with stakeholders to translate requirements into scalable, maintainable technical solutions
+
+<div id="bakson"></div>
+
+### [Bakson LTD](https://baksonltd.com/) | 2025
+
+Led the modernization of OSS deployment pipelines and infrastructure management through Terraform,
+Kubernetes, and proactive technical guidance.
+
+- Contributed production code to open-source projects across multiple programming languages
+- Designed, implemented, and managed CI/CD pipelines for automated testing and software delivery
+- Collaborated with developers, system administrators, and IT staff to streamline development and
+  deployment workflows
+- Administered Kubernetes clusters and maintained Terraform-based cloud infrastructure
+- Worked across teams to uphold code quality, reliability, and maintainability standards
+- Mentored junior team members and provided technical guidance
 
 <div id="axcient"></div>
 
@@ -128,42 +112,26 @@ Owned performance, reliability, and scalability of large-scale distributed stora
 operating across multiple data centers.
 
 - Drove system-level performance improvements across infrastructure managing 250+ PB of data
-- Investigated and resolved critical production issues involving distributed coordination,
-  storage systems, and compute interactions
-- Performed deep analysis of system behavior using tracing tools (DTrace) and monitoring systems
+- Investigated and resolved critical production issues involving deadlocks, race conditions,
+  distributed coordination, storage systems, and compute interactions
+- Maintained and optimized internal C, C++, and Rust applications used in production environments
+- Performed deep analysis of system behavior using DTrace, Prometheus, and Grafana
 - Built automation for managing infrastructure across hundreds of machines using SaltStack
-- Improved observability using Prometheus and Grafana, enabling faster diagnosis of production issues
-- Partnered with engineering teams to improve system architecture and operational reliability
-- Maintained internal C/C++/Rust tools
-
-<div id="bakson"></div>
-
-### [Bakson LTD](https://baksonltd.com/) | 2025
-
-Led the modernization of OSS deployment pipelines and infrastructure management through Terraform,
-Kubernetes, and proactive technical guidance.
-
-- Contributed to variety of OSS projects in different programming languages
-- Worked with a variety of teams to maintain high standards of quality across OSS projects
-- Collaborated with software developers, system administrators, and IT staff to streamline
-  development and deployment workflows
-- Set up and maintenance cloud infrastructure required to run specific OSS projects
-- Designed, implemented, and managed CI/CD pipelines for efficient software delivery
-- Mentored junior team members and provide technical guidance
-- Administered kubernetes cluster
-- Maintained terraform code
+- Improved observability and incident diagnosis across distributed production systems
+- Partnered with engineering teams to improve modular system architecture and operational reliability
 
 <div id="fourity"></div>
 
 ### [Fourity](https://fourity.com) | 2021 – 2022
 
+**Senior Backend Engineer**
+
 Led design and implementation of backend and distributed systems across multiple projects.
 
-- Architected scalable backend systems with focus on performance, resilience, and maintainability
-- Designed distributed system components and infrastructure automation strategies
-- Delivered systems capable of handling high-load environments with minimal operational overhead
-- Provided technical leadership and guided engineering decisions across teams
-- Senior Backend Engineer
+- Architected modular, scalable backend systems with focus on performance, resilience, and maintainability
+- Designed distributed processing components and infrastructure automation strategies
+- Delivered production systems for high-load environments with minimal operational overhead
+- Provided technical leadership and guided architecture and engineering decisions across teams
 
 <div id="cala-health"></div>
 
@@ -402,14 +370,15 @@ frontend and backend development.
   <h2 id="high-impact-contributions">High-Impact Contributions</h2>
 </a>
 
+- Designed and maintained production systems and tooling in Rust, C, C++, and Python across
+  performance-critical, distributed, and real-time environments
 - Owned performance and reliability for distributed systems managing **250+ PB** across
   multiple data centers
 - Diagnosed and resolved complex production issues including deadlocks, race conditions, and
-  cross-layer performance degradation
-- Built and optimized low-latency processing systems in Rust and C++ for real-time environments
-- Designed backend and infrastructure systems that scale across hundreds of nodes with high
-  availability
-- Improved observability and debugging capabilities using DTrace, Prometheus, and Grafana
+  cross-layer performance degradation using OS-level tracing and first-principles analysis
+- Built modular processing pipelines and backend architectures spanning hundreds of nodes
+- Delivered secure reverse-proxy, SAML SSO, authentication, and access-control systems
+- Implemented CI/CD, infrastructure automation, observability, and repeatable deployment workflows
 - Consistently trusted with production-critical systems where failure has significant operational
   impact
 
